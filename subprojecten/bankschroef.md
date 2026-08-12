@@ -11,7 +11,7 @@ Een voorspanschroef (face vise / voorspanschroef) links van het midden, vlak met
 - [x] Snelversteller (quick release / snelversteller) sterk gewenst — veel klemcycli.
 - [ ] Bek start ± 50 cm van links (werkperspectief), vlak met het schort.
 - [ ] Beuken bekken (jaw liners / houten bekken) 30–40 cm breed uit het bladrestant.
-- [ ] Ø20-bankhaakgaten in de beweegbare bek (chop), uitgelijnd op het 96 mm-raster.
+- [ ] Ø20-bankhaakgaten in de beweegbare bek (chop), uitgelijnd op het 100 mm-raster.
 
 ## Ideeën & opties
 

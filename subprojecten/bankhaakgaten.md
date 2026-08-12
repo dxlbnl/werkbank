@@ -1,10 +1,10 @@
-# Bankhaakgaten (raster Ø20 / 96 mm)
+# Bankhaakgaten (raster Ø20 / 100 mm)
 
 **Status:** 📐 ontwerpen
 
 ## Doel
 
-Een nauwkeurig 20 mm bankhaakgatenraster (dog hole grid) op steek 96 mm frezen, zonder cumulatieve fouten, met 3D-geprinte hulpmiddelen op de Bambu Lab P1S en de Bosch POF 1400.
+Een nauwkeurig 20 mm bankhaakgatenraster (dog hole grid) op steek 100 mm frezen, zonder cumulatieve fouten, met 3D-geprinte hulpmiddelen op de Bambu Lab P1S en de Bosch POF 1400.
 
 ## De methode (definitief, 2026-08-11)
 
@@ -36,7 +36,8 @@ Een nauwkeurig 20 mm bankhaakgatenraster (dog hole grid) op steek 96 mm frezen, 
 - **2026-08-11** — Methode definitief zoals hierboven (pilotgaten → stalen registratiepennen → toplagerfrees). *Waarom: één registratieprincipe, fouten worden nergens doorgegeven.*
 - **2026-08-10** — Forstnerbit in de frees verboden. *Waarom: drie onafhankelijke redenen — toerental 7–20× te hoog zelfs op minimum, geen balancering voor freestoerental, asymmetrische snijgeometrie → klapper (kickback). Veilig alternatief: 20 mm bodemsnijdende invalfrees (plunge-cutting bit), alleen zinvol i.c.m. de masterstrip.*
 - **2026-08-10** — Meetnauwkeurigheid: klasse I rolmaat, 100 mm-offset, kraspen.
-- **2026-08-05** — Raster Ø20 / 96 mm zelf: zie [werkblad](werkblad.md) — niet onderhandelbaar.
+- **2026-08-12** — Steek naar **100 mm**: zie [werkblad](werkblad.md). Kant-en-klare meer-gats mallen van Printables (op 96 mm ontworpen) passen daardoor niet ongewijzigd — de mal en het boorblokje worden toch zelf ontworpen, dus de methode verandert niet.
+- **2026-08-05** — ~~Raster Ø20 / 96 mm ("niet onderhandelbaar")~~ — vervallen, steek is nu 100 mm (zie 12-08 en [werkblad](werkblad.md)).
 
 ## Relaties
 
