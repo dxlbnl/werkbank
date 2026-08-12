@@ -16,6 +16,7 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 
 ## Ideeën & opties
 
+- Houtsoort: **vuren SLS** als basis (droog, recht, goedkoop — de NL-tegenhanger van het Amerikaanse "bouw van yellow pine"-advies). Southern Yellow Pine zelf is hier alleen bij speciaalzaken (Gadero, Fijnhout) tegen specialistenprijs — niet bij de bouwmarkt. Hardere optie bij Hornbach: **douglas** (stijver, minder kneuzen in de zwaluwstaarten; let op: veel douglas ligt er vers/nat — gedroogd geschaafd pakken of lang acclimatiseren). Mix kan: frame vuren, kopframes/poten douglas.
 - Frame van standaard bouwhout: grotere dimensies kopen en zelf schulpen (rip cut) naar maat. Werkwijze: 1–2 weken acclimatiseren, ruim voorzagen, paar dagen laten rusten (schulpen laat spanning vrij → trekken), dan op eindmaat; 20–30% extra kopen en op rechtheid sorteren.
 - Maatsuggestie (12-08, nog geen besluit): **poten gelamineerd uit 2× SLS 38×89 → ~76×89** (laat precies 2×25 mm wangen naast een 38 mm regel in de drop-in kamer; lamineren = recht; kamers mee uitsparen bij het verlijmen); **lange regels 38×140 op de kant** (achterkant blad + plank met kast: ~1,5 mm doorbuiging bij 100 kg midden op 1,9 m — kan zonder middenpoten); **kopframe-regels 38×89** (breed genoeg voor forse zwaluwstaarten). Inkoop: 38×184 → 2× 89 rippen (pootlamellen + kopregels), 38×140 alleen afkorten.
 - Kopframes (links/rechts): poten en regels met **verlijmde zwaluwstaarten** (dovetails) — in vuren grove hoek (~1:6) en brede, forse staarten; oriëntatie zó dat belasting de verbinding aantrekt.
