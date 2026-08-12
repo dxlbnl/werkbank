@@ -9,4 +9,6 @@ Kern in het kort:
 - Beslissingen altijd loggen met datum en motivatie; open vragen expliciet in de *Open vragen*-sectie zetten.
 - Houd statussen synchroon tussen subproject-md's, de tabel in `README.md` en `overzicht.html`.
 - Taal van de documentatie: Nederlands.
+- `overzicht.html` is het bouwplan (huidig: Rev. E, 2026-08-07/12) met plattegrond, aangezicht en vaktermenlijst. Bij tegenspraak met een subproject-md wint de md.
+- Dexter leert houtbewerkings-vaktermen: noem bij Engelse termen altijd de Nederlandse vakterm (en andersom), bv. bench dog / bankhaak, rip cut / schulpen, kerf / zaagsnede.
 - Dit is een documentatierepo, geen coderepo — er is niets te builden of te testen.

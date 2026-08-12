@@ -1,43 +1,39 @@
 # Onderstel
 
-**Status:** 🌱 verkennen
+**Status:** 📐 ontwerpen
 
 ## Doel
 
-Een stijf, zwaar en waterpas fundament voor de werkbank. Het onderstel bepaalt of de bank ergens tegen kan: schaven, hakken en zagen zonder wiebelen of schuiven.
+Een gesloten kastonderbouw (kastwerkbank / cabinet-style bench) die het blad draagt, opslag biedt en stof buiten de opslag houdt — géén open stijl-en-regelwerk.
 
 ## Eisen & wensen
 
-- [ ] Torsiestijf: geen racken bij schaven in de lengterichting.
-- [ ] Draagt het gewicht van blad + ladeblok + gereedschap ruimschoots.
-- [ ] Werkhoogte afgestemd op gebruik (zie open vragen — dit hangt samen met het werkblad).
-- [ ] Stelbaar waterpas te zetten op een (mogelijk ongelijke) vloer.
-- [ ] Ruimte laten voor het ladeblok én voor klemmen aan de voorrand van het blad.
-- [ ] Wens: demonteerbaar (verhuisbaar) zonder aan stijfheid in te leveren.
+- [x] Gesloten onderbouw: stofbeheersing in een kleine werkplaats (~4,8 m²).
+- [ ] Draagt blad + ladeblok + MBoxen ruimschoots; stijf genoeg als klem-onderlaag.
+- [ ] Verankering aan de houten wand, níét aan de stellingkast.
+- [ ] Plint, zodat je met je voeten bij de bank kunt staan.
+- [ ] Sleufgaten in de bovenregels voor de zwevende achterkant van het blad.
 
 ## Ideeën & opties
 
-- **Houten stijl- en regelwerk** (klassiek): dikke poten (bijv. 90×90 of dubbel gelamineerd constructiehout), onder- en bovenregels, verbindingen met pen-en-gat of slotbouten (demonteerbaar).
-- **Gelamineerd constructiehout / vuren**: goedkoop, overal verkrijgbaar, door lamineren maatvast en dik te maken.
-- **Torsiedoos-onderbouw**: extreem stijf, past goed bij een plaatmateriaal-aanpak (à la Paulk), maar minder klassiek.
-- **Stalen frame** (gelast of geschroefd profiel): compact en stijf, maar minder zelf aan te passen en koud karakter.
-- Massa toevoegen: onderste regels als plank/legbord gebruiken en daar zwaar spul (klemmen, ladeblok) op zetten — massa houdt de bank op zijn plek.
-- Schoren of een lage kast/ladeblok als verstijving gebruiken (dubbelfunctie met [ladeblok](ladeblok.md)).
+- Kastmodules uit 18 mm underlayment/multiplex (kooplijst rekent 2–3 platen à €35–45).
+- Onderste zone als massa-drager: zwaar spul onderin houdt de bank op zijn plek.
 
 ## Open vragen
 
-- Wat wordt de werkhoogte? Vuistregel: polshoogte (~90–95 cm) voor machinaal/montagewerk, lager (knokkelhoogte) als er veel met de hand geschaafd wordt.
-- Welke buitenmaten? Afhankelijk van de beschikbare ruimte in de werkplaats en de maat van het werkblad.
-- Demonteerbaar (slotbouten) of permanent verlijmd?
-- Wielen/verplaatsbaarheid nodig, of staat de bank vast op één plek?
-- Materiaalkeuze: constructiehout lamineren of meteen zwaarder hout kopen?
+- Plaatmateriaal en exacte modulematen (MBox-vak links, ladeblok rechts).
+- Waterpas stellen: stelvoeten of uitvullen?
+- Hoogteopbouw: blad 27 mm → onderbouw ~94 cm voor totaal 97 cm.
 
 ## Beslissingen
 
-*Nog geen beslissingen gelogd.*
+- **2026-08-05** — Kastwerkbank met gesloten onderbouw, geen open onderstel (Nicholson-stijl afgewezen). *Waarom: stofbeheersing en opslag in een kleine schuur.*
+- **2026-08-05** — Indeling: links gesloten vak met gestapelde Makita MBoxen, rechts ladeblok tegen de onderzijde van het blad. Positie: tegen de wand tegenover de deur.
+- **2026-08-07** — Maat 200 × 60 cm, 97 cm hoog; ± 20 cm ruimte tussen bank en stellingkast (kast blijft staan). *Waarom: 220 bleek niet nodig; lucht naast de kast is handig.* ⚠️ Datum zoals gelogd in bouwplan Rev. E.
+- **2026-08-07** — Verankering aan de wand, niet aan de stellingkast.
 
 ## Relaties
 
-- [Werkblad](werkblad.md) — bepaalt samen met het onderstel de totale hoogte; overstek van het blad bepaalt klemruimte.
-- [Ladeblok](ladeblok.md) — kan als verstijvend element in het onderstel hangen.
-- [Bankschroef](bankschroef.md) — een beenschroef (leg vise) grijpt direct op een poot aan; dan moet de poot vlak liggen met de voorrand van het blad.
+- [Werkblad](werkblad.md) — bepaalt samen de hoogte; zwevende montage achteraan.
+- [Ladeblok](ladeblok.md) — module rechts, verstijvend element.
+- [Bankschroef](bankschroef.md) — inbouwdiepte moet vrijlopen van het MBox-vak.

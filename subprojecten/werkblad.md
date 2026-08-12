@@ -1,43 +1,43 @@
 # Werkblad
 
-**Status:** 🌱 verkennen
+**Status:** 📐 ontwerpen
 
 ## Doel
 
-Een vlak, stevig en duurzaam werkoppervlak: het hart van de bank. Het blad moet klappen kunnen opvangen, klemwerk mogelijk maken en jarenlang vlak blijven.
+Een vlak, stevig en duurzaam werkoppervlak (workbench top / werkblad) met een MFT-stijl gatenraster, dat klemwerk via bankhaken (bench dogs) mogelijk maakt en jarenlang vlak blijft in een ongeconditioneerde schuur.
 
 ## Eisen & wensen
 
-- [ ] Vlak en vlak te hóuden (navlakken moet mogelijk zijn).
-- [ ] Dik/zwaar genoeg om hak- en klopwerk te dempen.
-- [ ] Klemmogelijkheden: overstek t.o.v. het onderstel zodat lijmklemmen overal grip hebben.
-- [ ] Wens: gatenraster (bankhaken / holdfasts / spanelementen).
-- [ ] Afwerking die vlekken en lijm weerstaat maar bijgewerkt kan worden (olie i.p.v. lak).
+- [x] Gatenraster Ø20 mm op steek 96 mm — vastgelegd, zie beslissingen.
+- [x] Volledig vlak oppervlak: geen uitstekende kragen of magneten in gatstopjes (hole stops).
+- [ ] Alle zijden geolied, óók onderkant en kopse kanten (end grain / kops hout).
+- [ ] Houtwerking opvangen: voorkant vast, achterkant zwevend.
+- [ ] Offerlaag-discipline: XPS-plaat verplicht bij elke doorgaande zaagsnede.
 
 ## Ideeën & opties
 
-- **Massief beuken** (klassiek): zwaar, hard, mooi; prijzig en gevoelig voor werken bij vochtwisselingen.
-- **Gelamineerd constructiehout/vuren**: betaalbaar, zelf te lamineren tot elke dikte; zachter (deuken), maar eenvoudig na te vlakken.
-- **Kant-en-klaar beuken werkblad / panelen** (bouwmarkt-keukenblad of werkbankblad): snel resultaat, beperkte dikte — eventueel dubbelen.
-- **Plaatmateriaal-opbouw** (MDF/multiplex in lagen, evt. met hardboard offerlaag): zeer vlak en goedkoop, past bij MFT-stijl gatenraster, minder klassiek gevoel.
-- **Gatenraster**: 20 mm gaten in 96 mm raster (MFT-stijl, compatibel met veel spanaccessoires) of ¾″ voor klassieke holdfasts. Keuze werkt door in [aanslaglineaal](aanslaglineaal.md) en spanmiddelen.
-- Voorrand als rechte referentiekant gebruiken (belangrijk voor de [bankschroef](bankschroef.md)).
+- Olie: hardwaxolie of lijnolie — keuze open.
+- Restanten blad (±40 cm kops bij afkorten naar 200, strook 3,5 cm bij rippen naar 60): bekken voor de [bankschroef](bankschroef.md), schortmateriaal, zaagklos (bench hook), testgaten voor dog-kalibratie.
 
 ## Open vragen
 
-- Welke maat? Lengte × diepte afstemmen op de werkplaats én op wat er gebouwd gaat worden.
-- Massief hout of plaatmateriaal-opbouw — wat past bij het beoogde gebruik (handgereedschap vs. machinaal/systeemwerk)?
-- Gatenraster: 20 mm systeem, ¾″ holdfast-gaten, beide, of (nog) geen?
-- Dikte: wat is genoeg — 40 mm? 60 mm? 80+ mm bij de klemzones?
-- Overstek rondom: hoeveel klemruimte is nodig (typisch 40–100 mm)?
+- Nulpunt (datum) en randafstanden van het raster op het definitieve 200×60-blad.
+- Olietype en aantal lagen.
+- Acclimatisatie: blad 1–2 weken in de schuur laten liggen vóór zagen/verlijmen — inplannen bij aankoop.
 
 ## Beslissingen
 
-*Nog geen beslissingen gelogd.*
+- **2026-08-07** — Blad = massief beuken werkblad 27 mm (gelamelleerd, 2400×635, ± €112); afkorten (cross cut / afkorten) naar 200 cm, rippen (rip cut / schulpen) naar 60 cm. *Waarom: slijtvaste Ø20-gaten (MDF lubbert uit), massa en stijfheid, schuurbaar/repareerbaar, prijs tussen MDF en berken; restanten leveren bekkenhout en schortmateriaal. Vervangt de MDF-toplaagkeuze; het vervangbare-toplaagconcept vervalt → XPS-offerplaat wordt verplichte discipline.* ⚠️ Datum zoals gelogd in bouwplan Rev. E; de sessie vond vermoedelijk 12-08 plaats.
+- **2026-08-07** — Montage: voorkant star langs de schortlijn, achterkant zwevend (sleufgaten, schroef met ring). *Waarom: beuken werkt ± 5 mm over 60 cm diepte in een onverwarmde schuur; werking moet naar achteren kunnen weglopen.*
+- **2026-08-07** — Schort (apron / schortplank) 20 cm hoog, aan de bladvoorrand verbonden met een lange versteksnede (45°), verlijmd langshout-op-langshout, geborgd met deuvels/Domino's/veer (spline); oliën ná het verlijmen. *Waarom: sterkste lijmverbinding, beweegt niet t.o.v. zichzelf; zaagdiepte-check: 27/cos 45° ≈ 38 mm, krap maar haalbaar met de invalzaag.*
+- **2026-08-08** — ~~Toplaag 18 mm MDF + onderlaag 18 mm underlayment~~ — vervallen, vervangen door de beukenbeslissing hierboven.
+- **2026-08-05** — Raster Ø20 mm op steek 96 mm. *Waarom: het complete print-on-demand MFT-accessoire-ecosysteem (Printables/Thingiverse) is hierop ontworpen; afwijken betekent elk accessoire hermodelleren. Secundair: 96 = 3 × 32, compatibel met System 32.* Niet onderhandelbaar.
+- **2026-08-05** — Maat en hoogte: 97 cm hoog; breedte later bijgesteld naar **200 × 60 cm** (07-08, tegelijk met de beukenkeuze).
+- **2026-08-05** — Klemhaken (holdfasts) en T-track in het blad geschrapt. *Waarom: één 20 mm-ecosysteem; klemwerk via schroefklemmen en Ganwei-type snelklemmen door de gaten.*
 
 ## Relaties
 
-- [Onderstel](onderstel.md) — samen bepalen ze de werkhoogte; het blad moet los kunnen van het onderstel als dat demonteerbaar wordt.
-- [Bankschroef](bankschroef.md) — inbouw vraagt om voldoende bladdikte en een rechte voorrand.
-- [Aanslaglineaal](aanslaglineaal.md) — een gatenraster maakt een verplaatsbare, herhaalbare aanslag mogelijk.
-- [Ladeblok](ladeblok.md) — lades onder het blad concurreren met klemruimte aan de randen.
+- [Bankhaakgaten](bankhaakgaten.md) — de boor/freesmethode voor het raster; freeslengte-check nodig voor 27 mm massief.
+- [Bankschroef](bankschroef.md) — bekken uit bladrestant; gaten in de bek op de as van de bladgatenrij.
+- [Aanslaglineaal](aanslaglineaal.md) — fence ligt óp het blad, registreert op het raster.
+- [Onderstel](onderstel.md) — draagt het blad; sleufgaten in de kastbovenregels voor de zwevende achterkant.

@@ -13,12 +13,14 @@ Dit is de plek waar alle ideeën, plannen en beslissingen voor het werkbankproje
 
 | Subproject | Status |
 |---|---|
-| [Onderstel](subprojecten/onderstel.md) | 🌱 verkennen |
-| [Werkblad](subprojecten/werkblad.md) | 🌱 verkennen |
-| [Bankschroef](subprojecten/bankschroef.md) | 🌱 verkennen |
+| [Onderstel](subprojecten/onderstel.md) | 📐 ontwerpen |
+| [Werkblad](subprojecten/werkblad.md) | 📐 ontwerpen |
+| [Bankhaakgaten](subprojecten/bankhaakgaten.md) | 📐 ontwerpen |
+| [Bankschroef](subprojecten/bankschroef.md) | 📐 ontwerpen |
 | [Ladeblok](subprojecten/ladeblok.md) | 🌱 verkennen |
-| [Aanslaglineaal](subprojecten/aanslaglineaal.md) | 🌱 verkennen |
+| [Aanslaglineaal](subprojecten/aanslaglineaal.md) | 📐 ontwerpen |
 | [Afzuiging / Makita AWS](subprojecten/afzuiging-makita-aws.md) | 🌱 verkennen |
+| [Gereedschapswand](subprojecten/gereedschapswand.md) | 🌱 verkennen |
 
 Statussen: 🌱 verkennen → 📐 ontwerpen → 🔨 bouwen → ✅ klaar
 

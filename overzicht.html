@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Werkbank schuur — bouwplan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EDEAE2;
+    --paper-2:#E4E0D5;
+    --ink:#262319;
+    --muted:#86816F;
+    --line:#B8B2A2;
+    --groen:#4E6B51;
+    --maat:#B0402F;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans',sans-serif;
+    font-size:15px;
+    line-height:1.55;
+  }
+  .sheet{max-width:960px;margin:0 auto;padding:28px 20px 80px}
+
+  .titelblok{
+    border:2px solid var(--ink);
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+  }
+  .titelblok > div{padding:10px 14px;border-left:1px solid var(--ink)}
+  .titelblok > div:first-child{border-left:none}
+  .tb-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);display:block;margin-bottom:2px;
+  }
+  .tb-value{font-family:'IBM Plex Sans Condensed',sans-serif;font-weight:600;font-size:17px}
+  h1{
+    font-family:'IBM Plex Sans Condensed',sans-serif;
+    font-weight:600;font-size:26px;letter-spacing:.01em;line-height:1.15;
+  }
+  .sub{color:var(--muted);font-size:13px;margin-top:2px}
+
+  section{margin-top:44px}
+  h2{
+    font-family:'IBM Plex Sans Condensed',sans-serif;
+    font-weight:600;font-size:15px;letter-spacing:.14em;text-transform:uppercase;
+    border-bottom:2px solid var(--ink);
+    padding-bottom:6px;margin-bottom:16px;
+    display:flex;justify-content:space-between;align-items:baseline;
+  }
+  h2 .nr{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted);letter-spacing:0}
+
+  figure{border:1px solid var(--line);background:#F3F1EA;padding:8px}
+  figure svg{display:block;width:100%;height:auto}
+  figcaption{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);
+    padding:8px 6px 2px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;
+  }
+  .legenda{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);margin-top:8px}
+  .legenda span{display:inline-block;margin-right:18px}
+  .lg{display:inline-block;width:22px;height:0;border-top:3px solid var(--ink);vertical-align:middle;margin-right:6px}
+  .lg.groen{border-top-color:var(--groen)}
+  .lg.maat{border-top:1px solid var(--maat)}
+  .lg.stippel{border-top:1px dashed var(--muted)}
+
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;vertical-align:top;border-bottom:1px solid var(--line)}
+  th{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--muted);font-weight:500;
+  }
+  td:first-child{font-weight:600;white-space:nowrap;width:170px}
+  .num td:first-child{width:auto;white-space:normal;font-weight:400}
+  .log td:first-child{width:110px;font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:12.5px;color:var(--muted)}
+
+  ul,ol{padding-left:20px}
+  li{margin-bottom:6px}
+  .open li{list-style:none;position:relative;padding-left:26px}
+  .open li::before{
+    content:"";position:absolute;left:0;top:4px;width:13px;height:13px;
+    border:1.5px solid var(--ink);background:#F3F1EA;
+  }
+  .open li.done::before{background:var(--groen);border-color:var(--groen)}
+  .open li.done{color:var(--muted)}
+  .fase{margin-bottom:18px}
+  .fase h3{
+    font-family:'IBM Plex Sans Condensed',sans-serif;font-weight:600;font-size:14px;
+    letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;
+  }
+  .fase h3 em{font-style:normal;color:var(--groen)}
+  .twee{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+  @media(max-width:700px){.twee{grid-template-columns:1fr}}
+  .note{
+    border-left:3px solid var(--groen);background:var(--paper-2);
+    padding:10px 14px;font-size:13.5px;margin-top:14px;
+  }
+  .conflict{border-left-color:var(--maat)}
+  code{font-family:'IBM Plex Mono',monospace;font-size:13px}
+  @media print{body{background:#fff}.sheet{padding:0}}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header class="titelblok">
+    <div>
+      <h1>Werkbank schuur — bouwplan</h1>
+      <div class="sub">Kastwerkbank 200 · massief beuken blad · schort 20 cm · Record 52½</div>
+    </div>
+    <div>
+      <span class="tb-label">Status</span>
+      <span class="tb-value">Rev. E</span>
+      <span class="sub">maat 200, schort 20, bankschroef gekozen</span>
+    </div>
+    <div>
+      <span class="tb-label">Datum / blad</span>
+      <span class="tb-value">2026-08-07 · 1/1</span>
+      <span class="sub">maten in cm, tenzij mm vermeld</span>
+    </div>
+  </header>
+
+  <!-- ============ 1. PLATTEGROND ============ -->
+  <section>
+    <h2>Plattegrond schuur <span class="nr">tekening 01 · bovenaanzicht</span></h2>
+    <figure>
+      <svg viewBox="0 0 770 560" role="img" aria-label="Plattegrond van de schuur, bovenaanzicht">
+        <!-- schaal 2.2 px/cm; oorsprong kamer: 80,70 -->
+        <defs>
+          <marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M1 1L9 5L1 9" fill="none" stroke="#B0402F" stroke-width="1.4"/>
+          </marker>
+        </defs>
+
+        <!-- wanden -->
+        <rect x="80" y="70" width="594" height="389" fill="none" stroke="#262319" stroke-width="4"/>
+
+        <!-- deuropening in bovenwand -->
+        <line x1="88" y1="70" x2="287" y2="70" stroke="#F3F1EA" stroke-width="6"/>
+        <line x1="88" y1="70" x2="88" y2="62" stroke="#262319" stroke-width="2"/>
+        <line x1="287" y1="70" x2="287" y2="62" stroke="#262319" stroke-width="2"/>
+        <path d="M287 70 Q 188 20 88 70" fill="none" stroke="#86816F" stroke-width="1" stroke-dasharray="4 4"/>
+        <text x="187" y="46" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">deur (draait naar buiten)</text>
+
+        <!-- raam in bovenwand -->
+        <line x1="311" y1="66" x2="520" y2="66" stroke="#262319" stroke-width="1.5"/>
+        <line x1="311" y1="74" x2="520" y2="74" stroke="#262319" stroke-width="1.5"/>
+        <text x="415" y="92" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">raam</text>
+
+        <!-- hoek naast raam: lang materiaal + platen -->
+        <rect x="522" y="72" width="150" height="120" fill="none" stroke="#86816F" stroke-width="1" stroke-dasharray="5 4"/>
+        <text x="597" y="118" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">hoek: latten,</text>
+        <text x="597" y="133" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">profielen, balken</text>
+        <text x="597" y="148" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">+ platen</text>
+
+        <!-- stellingkast (blijft staan): x 220..270, y 70..177 -->
+        <rect x="564" y="224" width="110" height="235" fill="#E4E0D5" stroke="#262319" stroke-width="1.5"/>
+        <text x="619" y="330" text-anchor="middle" font-family="'IBM Plex Sans Condensed',sans-serif" font-weight="600" font-size="15" fill="#262319">Stellingkast</text>
+        <text x="619" y="348" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">blijft staan</text>
+
+        <!-- werkbank: x 0..200, y 117..177; ruimte 200..220 tussen bank en kast -->
+        <rect x="80" y="327" width="440" height="132" fill="#DCE3DA" stroke="#4E6B51" stroke-width="2.5"/>
+        <text x="300" y="380" text-anchor="middle" font-family="'IBM Plex Sans Condensed',sans-serif" font-weight="600" font-size="17" fill="#262319">Werkbank (kastwerkbank)</text>
+        <text x="300" y="400" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#4E6B51">200 × 60 · h 97</text>
+        <text x="300" y="444" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">gereedschapswand erboven: houders direct in houten wand</text>
+        <text x="542" y="396" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#86816F" transform="rotate(-90 542 396)">ruimte ±20</text>
+
+        <!-- maatlijnen -->
+        <line x1="80" y1="492" x2="674" y2="492" stroke="#B0402F" stroke-width="1" marker-start="url(#m)" marker-end="url(#m)"/>
+        <line x1="80" y1="463" x2="80" y2="498" stroke="#B0402F" stroke-width="0.7"/>
+        <line x1="674" y1="463" x2="674" y2="498" stroke="#B0402F" stroke-width="0.7"/>
+        <text x="377" y="510" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F">270</text>
+
+        <line x1="46" y1="70" x2="46" y2="459" stroke="#B0402F" stroke-width="1" marker-start="url(#m)" marker-end="url(#m)"/>
+        <line x1="42" y1="70" x2="76" y2="70" stroke="#B0402F" stroke-width="0.7"/>
+        <line x1="42" y1="459" x2="76" y2="459" stroke="#B0402F" stroke-width="0.7"/>
+        <text x="36" y="268" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F" transform="rotate(-90 36 268)">177</text>
+
+        <!-- 200 werkbank -->
+        <line x1="80" y1="310" x2="520" y2="310" stroke="#B0402F" stroke-width="1" marker-start="url(#m)" marker-end="url(#m)"/>
+        <text x="300" y="303" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F">200</text>
+
+        <!-- 60 diep -->
+        <line x1="504" y1="327" x2="504" y2="459" stroke="#B0402F" stroke-width="1" marker-start="url(#m)" marker-end="url(#m)"/>
+        <text x="494" y="396" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F" transform="rotate(-90 494 396)">60</text>
+
+        <!-- kast 50 / 107 -->
+        <line x1="564" y1="208" x2="674" y2="208" stroke="#B0402F" stroke-width="1" marker-start="url(#m)" marker-end="url(#m)"/>
+        <text x="619" y="201" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F">50</text>
+        <line x1="702" y1="224" x2="702" y2="459" stroke="#B0402F" stroke-width="1" marker-start="url(#m)" marker-end="url(#m)"/>
+        <line x1="678" y1="224" x2="708" y2="224" stroke="#B0402F" stroke-width="0.7"/>
+        <line x1="678" y1="459" x2="708" y2="459" stroke="#B0402F" stroke-width="0.7"/>
+        <text x="716" y="345" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F" transform="rotate(-90 716 345)">107</text>
+      </svg>
+      <figcaption><span>tekening 01 — bovenaanzicht</span><span>bank met ± 20 cm ruimte tot de kast; verankering aan de wand, niet aan de kast</span></figcaption>
+    </figure>
+    <div class="legenda">
+      <span><span class="lg groen"></span>werkbank</span>
+      <span><span class="lg"></span>wand / kast</span>
+      <span><span class="lg maat"></span>maatvoering (cm)</span>
+      <span><span class="lg stippel"></span>zone / deurdraai</span>
+    </div>
+  </section>
+
+  <!-- ============ 2. AANGEZICHT ============ -->
+  <section>
+    <h2>Aangezicht werkbank <span class="nr">tekening 02 · vooraanzicht (werkperspectief)</span></h2>
+    <figure>
+      <svg viewBox="0 0 770 400" role="img" aria-label="Vooraanzicht van de werkbank vanuit het werkperspectief">
+        <!-- schaal ~2.12 px/cm; bank x: 90..514 (200 cm), top blad y=80, vloer y=286 (97 cm) -->
+        <defs>
+          <marker id="m2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M1 1L9 5L1 9" fill="none" stroke="#B0402F" stroke-width="1.4"/>
+          </marker>
+        </defs>
+
+        <!-- vloerlijn -->
+        <line x1="60" y1="286" x2="710" y2="286" stroke="#262319" stroke-width="2.5"/>
+
+        <!-- blad (27 mm massief beuken) -->
+        <rect x="90" y="80" width="424" height="6" fill="#DCE3DA" stroke="#4E6B51" stroke-width="2"/>
+
+        <!-- schortvlak 20 cm hoog, verstek aan bladvoorrand -->
+        <rect x="90" y="86" width="424" height="42" fill="#E4E0D5" stroke="#262319" stroke-width="1.5"/>
+
+        <!-- horizontale Ø20-gaten in schort -->
+        <g fill="#F3F1EA" stroke="#262319" stroke-width="1">
+          <circle cx="112" cy="107" r="4.5"/><circle cx="146" cy="107" r="4.5"/><circle cx="180" cy="107" r="4.5"/>
+          <circle cx="300" cy="107" r="4.5"/><circle cx="334" cy="107" r="4.5"/>
+        </g>
+        <text x="356" y="111" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#86816F">Ø20</text>
+
+        <!-- bankschroef Record 52½: beuken bek vóór het schort, start 50 cm van links (x=196) -->
+        <rect x="196" y="82" width="74" height="52" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.8"/>
+        <circle cx="233" cy="117" r="5" fill="none" stroke="#4E6B51" stroke-width="1.8"/>
+        <line x1="205" y1="117" x2="261" y2="117" stroke="#4E6B51" stroke-width="1.8"/>
+        <circle cx="205" cy="117" r="2" fill="#4E6B51"/><circle cx="261" cy="117" r="2" fill="#4E6B51"/>
+        <text x="233" y="150" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#4E6B51">Record 52½</text>
+        <text x="233" y="164" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#4E6B51">bek 30–40</text>
+
+        <!-- maat 50 van links naar bekstart -->
+        <line x1="90" y1="70" x2="196" y2="70" stroke="#B0402F" stroke-width="1" marker-start="url(#m2)" marker-end="url(#m2)"/>
+        <text x="143" y="63" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F">50</text>
+
+        <!-- onderbouw contour -->
+        <rect x="98" y="128" width="408" height="142" fill="none" stroke="#262319" stroke-width="1.5"/>
+
+        <!-- links: gesloten MBox-vak (achter schort) -->
+        <g stroke="#86816F" stroke-width="1" stroke-dasharray="5 4" fill="none">
+          <rect x="106" y="140" width="76" height="38"/>
+          <rect x="106" y="182" width="76" height="38"/>
+          <rect x="106" y="224" width="76" height="38"/>
+        </g>
+        <text x="144" y="163" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#86816F">MBox-vak</text>
+
+        <!-- rechts: ladeblok met vlakke fronten -->
+        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.2">
+          <rect x="320" y="136" width="178" height="40"/>
+          <rect x="320" y="180" width="178" height="40"/>
+          <rect x="320" y="224" width="178" height="40"/>
+        </g>
+        <g stroke="#262319" stroke-width="1.5">
+          <line x1="394" y1="156" x2="424" y2="156"/><line x1="394" y1="200" x2="424" y2="200"/>
+          <line x1="394" y1="244" x2="424" y2="244"/>
+        </g>
+
+        <!-- plint -->
+        <rect x="104" y="270" width="396" height="16" fill="#E4E0D5" stroke="#262319" stroke-width="1.5"/>
+        <text x="409" y="282" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="10.5" fill="#86816F">ladeblok, vlakke fronten (indeling n.t.b.)</text>
+
+        <!-- detail A: bladopbouw -->
+        <circle cx="490" cy="60" r="4" fill="none" stroke="#262319" stroke-width="1"/>
+        <line x1="490" y1="60" x2="490" y2="82" stroke="#262319" stroke-width="0.8"/>
+        <g transform="translate(575,40)">
+          <text x="0" y="0" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail A — blad</text>
+          <rect x="0" y="8" width="110" height="14" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.2"/>
+          <text x="0" y="42" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#86816F">massief beuken 27 mm</text>
+          <text x="0" y="54" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#86816F">rondom geolied</text>
+          <text x="0" y="66" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#86816F">voor vast, achter zwevend</text>
+          <text x="0" y="78" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#86816F">schort 20 cm: verstek 45°, verlijmd</text>
+        </g>
+
+        <!-- maatlijnen -->
+        <line x1="90" y1="322" x2="514" y2="322" stroke="#B0402F" stroke-width="1" marker-start="url(#m2)" marker-end="url(#m2)"/>
+        <line x1="90" y1="290" x2="90" y2="328" stroke="#B0402F" stroke-width="0.7"/>
+        <line x1="514" y1="290" x2="514" y2="328" stroke="#B0402F" stroke-width="0.7"/>
+        <text x="302" y="342" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F">200</text>
+
+        <!-- schorthoogte 20 -->
+        <line x1="524" y1="86" x2="524" y2="128" stroke="#B0402F" stroke-width="1" marker-start="url(#m2)" marker-end="url(#m2)"/>
+        <text x="538" y="110" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F">20</text>
+
+        <line x1="52" y1="80" x2="52" y2="286" stroke="#B0402F" stroke-width="1" marker-start="url(#m2)" marker-end="url(#m2)"/>
+        <line x1="48" y1="80" x2="86" y2="80" stroke="#B0402F" stroke-width="0.7"/>
+        <text x="42" y="185" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#B0402F" transform="rotate(-90 42 185)">97</text>
+      </svg>
+      <figcaption><span>tekening 02 — vooraanzicht vanuit werkperspectief</span><span>raster in bovenblad (Ø20, steek 96 mm) niet zichtbaar in dit aanzicht</span></figcaption>
+    </figure>
+    <div class="note">Boven de bank: gereedschapswand met houders direct in de houten achterwand geschroefd (geen French cleats). Aan de wand o.a.: grove handzaag, trekzaag, beitels, schroevendraaiers, blokschaaf, bankschaaf, accuboor, multitool; machines op maatgemaakte (3D-geprinte) houders.</div>
+  </section>
+
+  <!-- ============ 3. SPECIFICATIES ============ -->
+  <section>
+    <h2>Vastgelegde beslissingen <span class="nr">§3</span></h2>
+    <table>
+      <tr><td>Positie</td><td>Tegen de wand tegenover de deur; verankering aan de wand, niet aan de kast</td></tr>
+      <tr><td>Maat</td><td>200 × 60 cm (blad), 97 cm hoog; ± 20 cm ruimte tussen bank en stellingkast</td></tr>
+      <tr><td>Type</td><td>Kastwerkbank (gesloten onderbouw) — géén open onderstel</td></tr>
+      <tr><td>Blad</td><td>Massief beuken werkblad 27 mm (gelamelleerd, 240×63,5 → afkorten/rippen op 200×60); alle zijden geolied, ook onderkant en kopse kanten. Werking ± 5 mm over de diepte: voorkant vast, achterkant zwevend (sleufgaten)</td></tr>
+      <tr><td>Schort-verbinding</td><td>Schort aan bladvoorrand met lange versteksnede (45°), verlijmd langshout-op-langshout, geborgd met deuvels/Domino's/veer; oliën ná verlijmen. Restanten blad (40 cm kops, 3,5 cm strook) → houten bekken en schortmateriaal</td></tr>
+      <tr><td>Raster</td><td>Ø20 mm, steek 96 mm; geboord met 3D-geprinte boormal + freesmachine (methode: zie subprojecten/bankhaakgaten.md)</td></tr>
+      <tr><td>Schort</td><td>20 cm hoog, met horizontale Ø20-gaten links; rechts vlakke ladefronten in het schortvlak</td></tr>
+      <tr><td>Bankschroef</td><td>Record 52½ (op het oog, exemplaar ± 1920): snelspanner, géén ingebouwde dog. Bek start ± 50 cm van links (werkperspectief), vlak met het schort. Beuken bekken 30–40 cm breed (n.t.b.) uit bladrestant, met Ø20-bankhaakgaten in de beweegbare bek — boren ná montage, op de as van de bladgatenrij</td></tr>
+      <tr><td>Onderbouw</td><td>Links gesloten vak met gestapelde Makita MBoxen; rechts ladeblok tegen de onderzijde van het blad</td></tr>
+      <tr><td>Gereedschapswand</td><td>Houders direct in de houten achterwand geschroefd — geen French cleats</td></tr>
+      <tr><td>Aanslag / fence</td><td>Aluminiumprofiel op bankhaken, flip stop, zelfklevend meetlint (kalibreren op zaagsnede); profiel: 20×40 T-sleuf plat gelegd (besluit 08-08, zie subprojecten/aanslaglineaal.md)</td></tr>
+      <tr><td>Klemmen</td><td>Schroefklemmen + snelklemmen door de gaten; geen klemhaken, geen T-track in het blad</td></tr>
+      <tr><td>Offerlagen</td><td>XPS-plaat voor railzagen (verplicht bij het massieve blad); hardboard voor verfklussen</td></tr>
+      <tr><td>Opslag schuur</td><td>Stellingkast blijft staan; hoek naast het raam: lange latten, profielen, balken en platen</td></tr>
+      <tr><td>Geschrapt</td><td>Klemhaken; vrijstaand freestafeltje (gedeprioriteerd); rippen en hele platen verwerken: buiten op de Workmate</td></tr>
+    </table>
+  </section>
+
+  <!-- ============ 4. OPEN ============ -->
+  <section>
+    <h2>Open beslissingen <span class="nr">§4</span></h2>
+    <ul class="open">
+      <li class="done">Bladmateriaal: massief beuken werkblad 27 mm (± €112 voor 240×63,5) — MDF/berken-discussie gesloten</li>
+      <li class="done">Fence-profiel: 20×40 T-sleufprofiel plat gelegd — besluit 08-08</li>
+      <li class="done">Bankschroef: Record 52½ op het oog; start ± 50 cm van links — resteert: exemplaar vinden/kopen</li>
+      <li>Toekomst-idee: rolhouder voor kraftpapier aan/bij de bank, als afdek bij verfklussen</li>
+      <li>Ladeblok: ladeverdeling en -maten</li>
+      <li>Verlichting: LED boven het blad</li>
+      <li>Stroom: stopcontacten t.o.v. de bankpositie</li>
+      <li>3D-boormal voor het raster: nog te ontwerpen/printen</li>
+    </ul>
+  </section>
+
+  <!-- ============ 5. ONDERZOEK ============ -->
+  <section>
+    <h2>Onderzoeksvragen <span class="nr">§5</span></h2>
+    <table class="num">
+      <tr><td>Record 52½ (± 1920): check bij aankoop: snelspanner pakt over de hele slag, spindel recht, geen scheuren in het gietwerk; inbouwdiepte t.o.v. het MBox-vak</td></tr>
+      <tr><td>Fence: flip stop en meetlinthouder printen (Printables: <code>flip stop fence</code>, <code>dog adapter</code>)</td></tr>
+      <tr><td>Dogs: PETG printen (staand, veel wanden) + 2–4 metalen voor klemwerk; gatmaat kalibreren met proefprint</td></tr>
+      <tr><td>Boormal raster: Printables/Thingiverse — <code>MFT drilling template router</code>; methode zie subprojecten/bankhaakgaten.md</td></tr>
+      <tr><td>Snelklemmen Ø20 (Ganwei-type): penlengte ruim voorbij 27 mm bladdikte (≥ ~60 mm); 20 mm-variant kiezen (niet 19). Lange dogs: checken dat ze niet bodemen op kastdelen onder het blad</td></tr>
+      <tr><td>Machinehouders wand: modellen zoeken/ontwerpen per machine (cirkelzaag, boormachine, multitool, slijptol, hamerboor)</td></tr>
+      <tr><td>Rail-adapter voor de frees: officiële geleide-adapter voor het freesmodel (koop-item)</td></tr>
+      <tr><td>Muurbevestiging: type schroef/anker afstemmen op de houten wand</td></tr>
+    </table>
+  </section>
+
+  <!-- ============ 6. FASEN + LIJSTEN ============ -->
+  <section>
+    <h2>Bouwfasen <span class="nr">§6</span></h2>
+    <div class="twee">
+      <div>
+        <div class="fase"><h3><em>Fase 0</em> — Voorbereiding</h3>
+          <ul><li>Onderwand leeghalen; oude werkbank demonteren</li><li>Wand check: stroom, vocht, bevestigingspunten</li><li>Definitieve maatcontrole</li></ul>
+        </div>
+        <div class="fase"><h3><em>Fase 1</em> — Onderbouw</h3>
+          <ul><li>Kastmodules bouwen: MBox-vak links, ladeblok rechts (200 × ~93 cm hoog)</li><li>Stellen, koppelen, aan de wand verankeren</li></ul>
+        </div>
+        <div class="fase"><h3><em>Fase 2</em> — Blad + schort</h3>
+          <ul><li>Blad afkorten (200) en rippen (60); zaagdiepte op 45° checken (~38 mm nodig door 27 mm)</li><li>Versteksnede blad + schort, verlijmen met deuvels/veer, dán oliën (alle zijden)</li><li>Boormal printen en kalibreren; raster frezen</li><li>Montage: voorkant vast, achterkant sleufgaten; bankschroef monteren</li></ul>
+        </div>
+      </div>
+      <div>
+        <div class="fase"><h3><em>Fase 3</em> — Systemen</h3>
+          <ul><li>Fence: profiel + flip stop + meetlint, kalibreren op zaagsnede</li><li>Dogs printen; metalen dogs en klemmen kopen</li><li>XPS- en hardboardplaat op maat</li><li>Verlichting monteren</li></ul>
+        </div>
+        <div class="fase"><h3><em>Fase 4</em> — Wand + opslag</h3>
+          <ul><li>Gereedschapswand: houders per machine printen/maken en direct in de wand schroeven</li><li>Hoek naast raam inrichten voor lang materiaal en platen</li></ul>
+        </div>
+        <div class="fase"><h3>Printlijst (3D)</h3>
+          <ul><li>Boormal Ø20-raster + kalibratieprint</li><li>Dogs (PETG), diverse hoogtes</li><li>Flip stop, dog-adapters, meetlinthouder</li><li>Machinehouders voor de wand</li><li>Stofafzuig-adapters</li><li>Lade- en MBox-organizers</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. KOOPLIJST ============ -->
+  <section>
+    <h2>Kooplijst-skelet <span class="nr">§7 · prijzen indicatief</span></h2>
+    <table>
+      <tr><td>Blad: massief beuken werkblad</td><td>240 × 63,5 × 2,7 cm — ± €112; restanten → bekken + schort</td></tr>
+      <tr><td>Olie blad</td><td>hardwaxolie of lijnolie, alle zijden — ± €25</td></tr>
+      <tr><td>Plaatmateriaal onderbouw</td><td>underlayment/multiplex voor kastmodules — 2–3 platen (± €35–45 p/plaat)</td></tr>
+      <tr><td>Bankschroef</td><td>Record 52½ — tweedehands ± €80–150</td></tr>
+      <tr><td>Fence-profiel ± 150–200 cm</td><td>20×40 T-sleuf + moeren/bouten — ± €25–60</td></tr>
+      <tr><td>Ganwei-snelklemmen Ø20 (2×)</td><td>± €26 — penlengte ≥ ~60 mm</td></tr>
+      <tr><td>Schroefklemmen Ø20 (2×)</td><td>± €15–30</td></tr>
+      <tr><td>Metalen dogs (set)</td><td>± €20–40</td></tr>
+      <tr><td>Ø20 frees (toplager) + toebehoren</td><td>± €20–35</td></tr>
+      <tr><td>Zelfklevend meetlint</td><td>links- en rechtslezend — ± €10</td></tr>
+      <tr><td>XPS 30 mm + hardboard</td><td>± €20</td></tr>
+      <tr><td>Bevestiging, schroeven, lijm</td><td>± €40</td></tr>
+    </table>
+  </section>
+
+  <!-- ============ 8. BESLISSINGENLOG ============ -->
+  <section>
+    <h2>Beslissingenlog <span class="nr">§8 · nieuwste boven</span></h2>
+    <table class="log">
+      <tr><td>07-08</td><td><strong>Tekeningcorrectie + bekken:</strong> bankschroef in tekening 02 hertekend (bek vóór het schort, hendel eraan vast — spindel zweefde los onder de bank); labelbotsingen opgelost, visueel gecontroleerd via render. Beuken bekken worden 30–40 cm breed (n.t.b.)</td></tr>
+      <tr><td>07-08</td><td><strong>Correctie bankschroef:</strong> het beoogde exemplaar (± 1920) heeft géén opduwbare dog, wel een snelspanner. Dog-functie via Ø20-gaten in de beuken bekken (boren ná montage, op de as van de bladgatenrij)</td></tr>
+      <tr><td>07-08</td><td><strong>Maat en hardware:</strong> bank naar 200 cm (± 20 cm ruimte tot de stellingkast), schort 20 cm hoog, bankschroef Record 52½ op het oog, bek start ± 50 cm van links. Toekomst-idee genoteerd: kraftpapier-rolhouder voor verfklussen</td></tr>
+      <tr><td>07-08</td><td><strong>Blad definitief:</strong> massief beuken werkblad 27 mm (± €112, 240×63,5 — idee van vriend). MDF/berken-conflict gesloten; vervangbare-toplaagconcept vervalt → XPS-offerplaat verplicht bij doorzagen. Schort in lange versteksnede (45°) verlijmd aan bladvoorrand. Werking ± 5 mm over 60 cm: voor vast, achter zwevend, rondom oliën</td></tr>
+      <tr><td>07-08</td><td><strong>Correctie rev. B:</strong> bank blijft strak in de hoekopstelling, kast blijft staan, hoek naast het raam = lange latten/profielen/balken + platen. Rev. B (270, kast verhuisd) was gebaseerd op een verouderde sessiesamenvatting en is teruggedraaid</td></tr>
+      <tr><td>06-08</td><td>Fence-opbouw: profiel op bankhaken + flip stop + meetlint; advies 30×60/40×80 T-sleuf boven plat 2040 — profielkeuze toen nog open (op 08-08 beslist: 20×40 plat, zie subprojecten/aanslaglineaal.md). Meetlint kalibreren op werkelijke zaagsnede</td></tr>
+      <tr><td>05-08</td><td>Kastwerkbank-indeling (schets-sessie): lades bevestigd, schortdeel links met voorspanschroef (links van midden) en horizontale Ø20-gaten, ladeblok rechts met vlakke fronten, MBox-vak links. Gereedschapswand: houders direct in houten wand, geen French cleats. Die sessie hield berken aan voor het blad</td></tr>
+      <tr><td>05-08</td><td>Deze sessie: toplaag MDF i.p.v. berken (prijs: €25 vs €140) — later vervangen door massief beuken; hoek naast raam voor lang materiaal</td></tr>
+      <tr><td>eerder</td><td>Vastgelegd: 97 cm hoog, Ø20-raster 96 mm via 3D-geprinte boormal, klemhaken en T-track geschrapt, offerlagen XPS/hardboard, rippen buiten op de Workmate, freestafel gedeprioriteerd</td></tr>
+    </table>
+    <div class="note conflict">Datering: de beslissingen "blad definitief" t/m "tekeningcorrectie" staan gelogd op 07-08, maar de sessie-activiteit suggereert 12-08. Door Dexter aan te scherpen.</div>
+  </section>
+
+  <!-- ============ 9. TERMEN ============ -->
+  <section>
+    <h2>Vaktermen EN → NL <span class="nr">§9</span></h2>
+    <div class="twee">
+      <table>
+        <tr><td>workbench</td><td>werkbank</td></tr>
+        <tr><td>vise / face vise</td><td>bankschroef / voorspanschroef</td></tr>
+        <tr><td>bench dog</td><td>bankhaak / spanpen</td></tr>
+        <tr><td>bench hook</td><td>zaagklos</td></tr>
+        <tr><td>holdfast</td><td>klemhaak</td></tr>
+        <tr><td>apron</td><td>voorschot / schortplank</td></tr>
+        <tr><td>fence</td><td>aanslag(liniaal)</td></tr>
+        <tr><td>flip stop</td><td>klapaanslag</td></tr>
+        <tr><td>jaw liners</td><td>houten bekken / klauwplaten</td></tr>
+      </table>
+      <table>
+        <tr><td>track saw / plunge saw</td><td>invalzaag (met geleiderail)</td></tr>
+        <tr><td>router</td><td>(boven)frees / freesmachine</td></tr>
+        <tr><td>guide bushing</td><td>kopieerring</td></tr>
+        <tr><td>T-track / T-slot</td><td>T-profiel / T-sleufprofiel</td></tr>
+        <tr><td>kerf</td><td>zaagsnede(breedte)</td></tr>
+        <tr><td>F-clamp / quick clamp</td><td>lijmtang / snelspanklem</td></tr>
+        <tr><td>pull saw</td><td>trekzaag</td></tr>
+        <tr><td>block plane / bench plane</td><td>blokschaaf / bankschaaf</td></tr>
+        <tr><td>plans</td><td>bouwtekening</td></tr>
+        <tr><td>sacrificial board</td><td>offerplaat / offerlaag</td></tr>
+      </table>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
