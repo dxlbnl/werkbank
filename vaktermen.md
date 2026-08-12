@@ -72,3 +72,5 @@ Dexter leert houtbewerkings-vaktermen: bij Engelse termen altijd de Nederlandse 
 | continuous dimensioning | doorlopende maatvoering |
 | single datum | één nulpunt |
 | scribing knife | kraspen |
+| SLS (Surfaced Lumber Sizes) | geschaafd, gedroogd vurenhout in vaste maten (2×4-familie: 38×89, 38×140, …), licht afgeronde hoeken, vaak C18/C24 |
+| two-by-four (2×4) | 38×89 mm SLS-balk |
