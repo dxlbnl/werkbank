@@ -15,7 +15,10 @@ CLAUDE.md                  — instructies die Claude bij elke sessie leest
 overzicht.html             — visueel overzicht met schematische tekeningen
 ideeen.md                  — backlog van losse ideeën
 subprojecten/<naam>.md     — één bestand per subproject
+_config.yml                — Jekyll-config voor de GitHub Pages-site
 ```
+
+De repo wordt via GitHub Pages ook als website geserveerd op [dxlbnl.github.io/werkbank](https://dxlbnl.github.io/werkbank/): Jekyll rendert de md's als pagina's (README = voorpagina, onderlinge md-links worden automatisch herschreven), `overzicht.html` wordt onaangeroerd meegeleverd.
 
 ## Afspraken
 

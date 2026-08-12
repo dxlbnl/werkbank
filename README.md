@@ -1,5 +1,7 @@
 # Werkbank
 
+> 📖 Leesbare versie: [dxlbnl.github.io/werkbank](https://dxlbnl.github.io/werkbank/) · 🗺️ Bouwplan: [overzicht.html](https://dxlbnl.github.io/werkbank/overzicht.html)
+
 Dit is de plek waar alle ideeën, plannen en beslissingen voor het werkbankproject landen. Het doel: samen met Claude toewerken naar een mooie, functionele werkbank — van los idee tot uitgewerkt ontwerp en bouw.
 
 ## Hoe deze repo werkt

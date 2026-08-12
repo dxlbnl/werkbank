@@ -1,0 +1,8 @@
+# GitHub Pages / Jekyll — rendert de md's als documentatiesite.
+# README.md wordt de voorpagina (jekyll-readme-index), .md-links worden
+# herschreven naar paginalinks (jekyll-relative-links) en overzicht.html
+# wordt onaangeroerd meegekopieerd. Allemaal standaard Pages-plugins.
+title: Werkbank
+description: Levende documentatie voor het ontwerpen en bouwen van een werkbank
+lang: nl
+theme: jekyll-theme-primer
