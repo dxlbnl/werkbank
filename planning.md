@@ -16,8 +16,8 @@ Bouwfasen, kooplijst en printlijst. Verhuisd uit `overzicht.html` (12-08) — da
 - Stellen, aan de wand verankeren.
 
 ### Fase 2 — Blad + schort
-- Blad afkorten (200) en rippen (60); zaagdiepte op 45° checken (~38 mm nodig door 27 mm).
-- Versteksnede blad + schort, verlijmen met deuvels/veer, dán oliën (alle zijden).
+- Blad afkorten (200) en rippen (60).
+- Schort (18 mm paneel) aan de bladvoorrand verbinden (detail n.t.b.), verlijmen, dán oliën (alle zijden).
 - Boormal printen en kalibreren; raster frezen (zie [bankhaakgaten](subprojecten/bankhaakgaten.md)).
 - Montage: voorkant vast (registratie over de voorpoten), achterkant sleufgaten; bankschroef monteren.
 
@@ -47,7 +47,8 @@ Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippe
 
 | Item | Toelichting |
 |---|---|
-| Blad: massief beuken werkblad | 240 × 63,5 × 2,7 cm — ± €112; restanten → bekken + schort |
+| Blad: massief beuken aanrechtblad | 240 × 63,5 × 2,7 cm — ± €112; restanten → bekken, zaagklos, vulblokken |
+| Schort: beuken meubelpaneel | 18 × 200 × 2000 mm — ± €30 |
 | Olie blad | hardwaxolie of lijnolie, alle zijden — ± €25 |
 | Onderstel: balken + plaat | constructiehout voor het frame + underlayment/multiplex voor de kastmodules, 2–3 platen (± €35–45 p/plaat) |
 | Bankschroef | Record 52½ — tweedehands ± €80–150 |

@@ -39,7 +39,7 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 
 - Verbinding lange regels ↔ pootkop: drop-in zwaluwstaart (wangen 25 mm bij 38 mm regel) of rechte keep + slotbout?
 - Verbinding onderregels ↔ poot: schuifzwaluwstaart, spie of slotbout?
-- Registratiedetail schort ↔ voorpoot: inkeping in het schort of in de poot; montagevolgorde.
+- Registratiedetail schort ↔ voorpoot: bij het 18 mm-paneelschort (12-08) liever de inkeping in de poot dan in het dunne paneel; montagevolgorde.
 - Ladekast: staand op de onderplank of hangend tegen het blad (besluit 05-08 zegt hangend)?
 - Module-registratie in het frame (klossen / schroeven door zijwanden / hangend) en modulematen + plaatmateriaal.
 - Waterpas stellen: stelvoeten of uitvullen? Muurbevestiging: type schroef/anker voor de houten wand.
