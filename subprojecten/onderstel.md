@@ -11,18 +11,25 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 - [x] Stofbeheersing in een kleine werkplaats (~4,8 m²): de ladekastmodule is gesloten/stofdicht; het MBox-vak mag open (de MBoxen sluiten zelf).
 - [ ] Draagt blad + ladekast + MBoxen ruimschoots; stijf genoeg als klem-onderlaag.
 - [ ] Verankering aan de houten wand, níét aan de stellingkast.
-- [ ] Plint, zodat je met je voeten bij de bank kunt staan.
 - [ ] Sleufgaten in de bovenregels voor de zwevende achterkant van het blad.
+- [ ] Enigszins demontabel: kopframes verlijmd, lengteverbindingen los te nemen.
 
 ## Ideeën & opties
 
-- Frame: vuren of gelamineerd constructiehout (bijv. 44×95 of dubbel 44×70), verbindingen pen-en-gat (permanent) of slotbouten (demonteerbaar).
+- Frame van standaard bouwhout: grotere dimensies kopen en zelf schulpen (rip cut) naar maat. Werkwijze: 1–2 weken acclimatiseren, ruim voorzagen, paar dagen laten rusten (schulpen laat spanning vrij → trekken), dan op eindmaat; 20–30% extra kopen en op rechtheid sorteren.
+- Kopframes (links/rechts): poten en regels met **verlijmde zwaluwstaarten** (dovetails) — in vuren grove hoek (~1:6) en brede, forse staarten; oriëntatie zó dat belasting de verbinding aantrekt.
+- Lengteverbindingen demontabel, twee smaken: **(a)** onverlijmde ingelaten zwaluwstaarten — bovenregels als drop-in van boven in de pootkoppen (geborgd door het blad erop), onderregels geborgd met een bout of spie (wig/keg); **(b)** slotbouten (bench bolts) met borstpen (stub tenon). Optie (a) verankert in de trekrichting zichzelf; bij veelvuldig demonteren kneuzen zachthout-staarten wel.
+- **Bladregistratie in de poten** (à la Rex Krueger's joiner's bench): het schort valt met inkepingen over de voorpoten → blad + schort worden zelf het schoorvlak aan de voorkant, geen diagonale schoren nodig. Vooraan vast (matcht "voorkant vast"), achteraan registreren met speling (sleuven) voor de houtwerking.
+- Onderplank op ~5–10 cm van de grond over de onderregels: ladekast en zwaar spul erop, niets op de grond (vocht). Vastgeschroefd werkt de plank als schijf en verstijft hij het frame onderin.
 - Kastmodules uit 18 mm underlayment/multiplex (kooplijst rekent 2–3 platen à €35–45), los gebouwd en in het frame geschroefd — vastgeschroefd werken ze als schotten en verstijven ze het frame alsnog.
 - Onderste zone als massa-drager: zwaar spul onderin houdt de bank op zijn plek.
 
 ## Open vragen
 
-- Balkmaat en verbindingstype (pen-en-gat / slotbouten); 4 of 6 poten bij 200 cm lengte?
+- Lengteverbindingen: onverlijmde zwaluwstaarten of slotbouten met borstpen?
+- Ladekast: staand op de onderplank of hangend tegen de onderzijde van het blad (besluit 05-08 zegt hangend)?
+- Registratiedetail blad/schort ↔ poten: inkeping in het schort of in de poot, en hoe combineert dit met de zwevende achterkant?
+- Balkmaat; 4 of 6 poten bij 200 cm lengte?
 - Hoe registreren de modules in het frame: klossen, schroeven door de zijwanden, of hangend aan de bovenregels?
 - Plaatmateriaal en exacte modulematen (open MBox-kast links, ladekast rechts).
 - Waterpas stellen: stelvoeten of uitvullen?
