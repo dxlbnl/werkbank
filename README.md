@@ -7,9 +7,12 @@ Dit is de plek waar alle ideeën, plannen en beslissingen voor het werkbankproje
 ## Hoe deze repo werkt
 
 - **Per subproject één markdown-bestand** in [`subprojecten/`](subprojecten/). Daar staat de inhoud: doel, eisen, opties, open vragen en beslissingen.
-- **[`overzicht.html`](overzicht.html)** is het visuele overzicht: schematische tekeningen en de samenhang tussen de onderdelen. Details horen in de subproject-md's, niet in de html.
+- **[`overzicht.html`](overzicht.html)** is het tekeningenblad: schematische tekeningen, alléén tekeningen. Alle inhoud (beslissingen, planning, termen) leeft in de md's; bij tegenspraak wint de md.
 - **[`WERKWIJZE.md`](WERKWIJZE.md)** beschrijft hoe we hier werken (levende documentatie, conventies, hoe beslissingen worden vastgelegd). Ook die afspraken zelf kunnen veranderen.
 - **[`ideeen.md`](ideeen.md)** is de backlog: losse ideeën die (nog) geen eigen subproject zijn.
+- **[`planning.md`](planning.md)** bevat de bouwfasen, kooplijst en 3D-printlijst.
+- **[`logboek.md`](logboek.md)** is het chronologische projectlog.
+- **[`vaktermen.md`](vaktermen.md)** is de groeiende EN ↔ NL vaktermenlijst.
 
 ## Subprojecten
 

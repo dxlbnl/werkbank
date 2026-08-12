@@ -12,8 +12,11 @@ De ideeën voor de werkbank een vaste plek geven, en over meerdere sessies heen 
 README.md                  — startpunt + index van subprojecten
 WERKWIJZE.md               — dit bestand
 CLAUDE.md                  — instructies die Claude bij elke sessie leest
-overzicht.html             — visueel overzicht met schematische tekeningen
+overzicht.html             — tekeningenblad (alléén schematische tekeningen)
 ideeen.md                  — backlog van losse ideeën
+planning.md                — bouwfasen, kooplijst, 3D-printlijst
+logboek.md                 — chronologisch projectlog
+vaktermen.md               — vaktermenlijst EN ↔ NL
 subprojecten/<naam>.md     — één bestand per subproject
 _config.yml                — Jekyll-config voor de GitHub Pages-site
 ```
@@ -26,7 +29,7 @@ De repo wordt via GitHub Pages ook als website geserveerd op [dxlbnl.github.io/w
 2. **Neem niets aan.** Wat eerder besproken of opgeschreven is, is geen vaststaand feit. Plannen veranderen door voortschrijdend inzicht. Alleen wat onder *Beslissingen* staat geldt als besloten — en zelfs dat mag heroverwogen worden (log dan een nieuwe beslissing die de oude vervangt).
 3. **Beslissingen loggen met datum en motivatie.** Formaat: `- **JJJJ-MM-DD** — beslissing. *Waarom: …*`. Zo blijft zichtbaar wáárom iets zo is, en is terugdraaien een bewuste keuze.
 4. **Open vragen expliciet maken.** Wat nog onduidelijk is hoort in de sectie *Open vragen*, niet impliciet tussen de regels. Een goede sessie beantwoordt vragen of voegt betere toe.
-5. **De html is het overzicht, de md's zijn de bron.** `overzicht.html` is bedoeld voor schematische tekeningen en het grote plaatje. Inhoudelijke details, afwegingen en beslissingen horen in de subproject-md's. Bij tegenspraak wint de md.
+5. **De html is een tekeningenblad, de md's zijn de bron.** `overzicht.html` bevat alléén schematische tekeningen (sinds 12-08). Inhoudelijke details, afwegingen, beslissingen, planning en termen horen in de md's. Bij tegenspraak wint de md.
 6. **Status bijhouden.** Elk subproject heeft een status (🌱 verkennen / 📐 ontwerpen / 🔨 bouwen / ✅ klaar), zowel in het bestand zelf als in de tabel in `README.md`. Houd die synchroon.
 7. **Nieuwe onderdelen.** Een los idee begint in `ideeen.md`. Zodra het serieus wordt, krijgt het een eigen md in `subprojecten/` (kopieer de opbouw van een bestaand bestand) en een regel in de README-tabel en in `overzicht.html`.
 

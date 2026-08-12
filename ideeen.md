@@ -9,4 +9,5 @@ Losse ideeën die (nog) geen eigen subproject zijn. Wordt er eentje serieus, dan
 - **Stopcontacten** t.o.v. de bankpositie.
 - **Geprinte hoekmallen (verstekmallen)** voor de fence.
 - **Freestafeltje** — gedeprioriteerd (2026-08-05), bewust geparkeerd.
+- **Werkplaatsinrichting**: stellingkast blijft staan; hoek naast het raam voor lange latten, profielen, balken en platen; rippen en hele platen verwerken buiten op de Workmate.
 - **Offerlagen**: hardboard voor verfklussen. (XPS-plaat voor railzagen vervallen 12-08 — geen opslagruimte; strategie is vaste kerflijnen, zie [werkblad](subprojecten/werkblad.md).)

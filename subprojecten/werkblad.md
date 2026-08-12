@@ -12,6 +12,7 @@ Een vlak, stevig en duurzaam werkoppervlak (workbench top / werkblad) met een MF
 - [x] Volledig vlak oppervlak: geen uitstekende kragen of magneten in gatstopjes (hole stops).
 - [ ] Alle zijden geolied, óók onderkant en kopse kanten (end grain / kops hout).
 - [ ] Houtwerking opvangen: voorkant vast, achterkant zwevend.
+- [ ] Horizontale Ø20-gaten in het schort (linkerdeel) voor klemmen tegen de bankvoorkant.
 - [ ] Doorgaande zaagsnedes beheersen: insteek is **vaste kerflijnen** — doorzagen altijd op dezelfde plek(ken) op het blad; geen XPS-offerplaat (geen opslagruimte).
 
 ## Ideeën & opties

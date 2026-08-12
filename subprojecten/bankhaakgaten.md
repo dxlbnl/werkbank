@@ -24,12 +24,16 @@ Een nauwkeurig 20 mm bankhaakgatenraster (dog hole grid) op steek 100 mm frezen,
 
 - Aluminium platstrip (30–40 × 5 mm) als voorgeboorde masterstrip voor de pilotgaten — beter dan 2040-profiel (holle wanden laten de boor verlopen).
 - Meten: klasse I rolmaat; 100 mm-offsettechniek elimineert haakfouten; kraspen (scribing knife) i.p.v. potlood (±0,4 mm lijnbreedte weg).
+- Dogs: PETG printen (staand, veel wanden), plus 2–4 metalen voor zwaar klemwerk; gatmaat kalibreren met een proefprint.
+- Snelklemmen Ø20 (Ganwei-type): 20 mm-variant kiezen (niet 19); penlengte ruim voorbij de bladdikte van 27 mm (≥ ~60 mm).
 
 ## Open vragen
 
 - **Freeslengte-check:** de methode is ontworpen op 2 × 18 mm gelaagd blad ("toplaag als mal voor onderlaag"). Met massief beuken 27 mm vervalt die stap; de toplagerfrees moet 27 mm + maldikte aankunnen, in 2–3 dieptestappen. Snijlengte van het bit controleren vóór aankoop.
 - Mal- en boorblokje-ontwerp voor de P1S (256×256 bed): maat, pengatposities, wanddiktes.
 - Gatafstand tot bladranden en positie van het nulpunt op 200×60.
+- Rail-adapter voor de frees: officiële geleiderail-adapter voor de POF 1400 (koop-item).
+- Lange dogs en klempennen: checken dat ze onder het blad niet bodemen op regels of kastmodules.
 
 ## Beslissingen
 

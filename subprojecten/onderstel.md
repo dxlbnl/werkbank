@@ -35,6 +35,7 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 - Hoe registreren de modules in het frame: klossen, schroeven door de zijwanden, of hangend aan de bovenregels?
 - Plaatmateriaal en exacte modulematen (open MBox-kast links, ladekast rechts).
 - Waterpas stellen: stelvoeten of uitvullen?
+- Muurbevestiging: type schroef/anker afstemmen op de houten wand.
 - Hoogteopbouw: blad 27 mm → onderbouw ~94 cm voor totaal 97 cm.
 
 ## Beslissingen
