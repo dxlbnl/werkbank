@@ -11,45 +11,42 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 - [x] Stofbeheersing in een kleine werkplaats (~4,8 m²): de ladekastmodule is gesloten/stofdicht; het MBox-vak mag open (de MBoxen sluiten zelf).
 - [ ] Draagt blad + ladekast + MBoxen ruimschoots; stijf genoeg als klem-onderlaag.
 - [ ] Verankering aan de houten wand, níét aan de stellingkast.
-- [ ] Sleufgaten in de bovenregels voor de zwevende achterkant van het blad.
-- [ ] Enigszins demontabel: kopframes verlijmd, lengteverbindingen los te nemen.
+- [ ] Sleufgaten in de achterbovenregel voor de zwevende achterkant van het blad.
+- [ ] Enigszins demontabel: kopframes en roosters verlijmd, de koppeling daartussen los te nemen.
+- [ ] Linker voorzone vrijhouden voor de bankschroef: ~50 diep × 25 breed × 15 hoog achter het schortvlak (zie [bankschroef](bankschroef.md)).
+
+## Beslissingen
+
+- **2026-08-12** — **Frameopbouw definitief:** 4 poten, géén middenpoten. Twee verlijmde kopframes (zwaluwstaarten). Boven- én onderin een **rooster**: 2 lange regels + 3 dwarsregels, verbonden met verlijmde open pen-en-gatverbindingen (bridle joints / vorkverbindingen). *Waarom: de roosters maken voor- en achtervlak "uit één stuk" — nodig omdat de zwevende bladachterkant (sleufgaten in de diepterichting) die koppeling bewust niet mag leveren; het onderrooster draagt de onderplank (~5–10 cm boven de vloer, vastgeschroefd = schijfwerking). Elk rooster blijft als geheel demontabel van de kopframes.*
+- **2026-08-12** — **Maten en inkoop:** poten **~88×70**, elk gelamineerd uit 2 lamellen 44×70 (vuren 44×144 in de lengte gerippt); kamers uitsparen vóór het verlijmen — de lijmnaad valt midden in de kamer, dus beide wangen zijn massief. Lange en dwarsregels **38×89 op de kant** (*10 cm-klasse volstaat: het rooster deelt de last en vooraan dragen blad + schort als T-balk; 140 hoog oogde topzwaar naast de kolommen*). Kopframe-regels **44×70** uit de restlamellen. Zaaglijst: zie [planning](../planning.md).
+- **2026-08-12** — **Voorkant schoort via het blad:** het schort valt met inkepingen over de voorpoten (à la Rex Krueger's joiner's bench) — vooraan star (matcht "voorkant vast"), achteraan blijft het blad zweven. Geen diagonale schoren nodig.
+- **2026-08-12** — **Bankschroef hangt aan de voorregel, niet aan het blad**; gietribben worden in de regel ingelaten. Details en volgorde: zie [bankschroef](bankschroef.md). De linker framezone en de MBox-moduletop worden pas definitief na het opmeten van het gekochte exemplaar.
+- **2026-08-12** — Constructie herzien: balkenonderstel met ingehangen kastmodules in plaats van één grote gesloten kast. *Waarom: geen zin in een groot kastbouwwerk; modules zijn los te bouwen en aan te passen; stofbeheersing blijft geborgd via de gesloten ladekast.*
+- **2026-08-05** — ~~Kastwerkbank met gesloten onderbouw, geen open onderstel~~ — herzien op 12-08 (zie boven); de motivatie (stofbeheersing en opslag in een kleine schuur) blijft gelden.
+- **2026-08-05** — Indeling: links de MBoxen (open kastmodule), rechts ladekast. Positie: tegen de wand tegenover de deur.
+- **2026-08-07** — Maat 200 × 60 cm, 97 cm hoog; ± 20 cm ruimte tussen bank en stellingkast (kast blijft staan). ⚠️ Datum zoals gelogd in bouwplan Rev. E.
+- **2026-08-07** — Verankering aan de wand, niet aan de stellingkast.
 
 ## Ideeën & opties
 
-- Houtsoort: **vuren SLS** als basis (droog, recht, goedkoop — de NL-tegenhanger van het Amerikaanse "bouw van yellow pine"-advies). Southern Yellow Pine zelf is hier alleen bij speciaalzaken (Gadero, Fijnhout) tegen specialistenprijs — niet bij de bouwmarkt. Hardere optie bij Hornbach: **douglas** (stijver, minder kneuzen in de zwaluwstaarten; let op: veel douglas ligt er vers/nat — gedroogd geschaafd pakken of lang acclimatiseren). Mix kan: frame vuren, kopframes/poten douglas.
-- Frame van standaard bouwhout: grotere dimensies kopen en zelf schulpen (rip cut) naar maat. Werkwijze: 1–2 weken acclimatiseren, ruim voorzagen, paar dagen laten rusten (schulpen laat spanning vrij → trekken), dan op eindmaat; 20–30% extra kopen en op rechtheid sorteren.
-- Maatsuggestie (12-08, nog geen besluit): **poten gelamineerd uit 2× SLS 38×89 → na schaven ~70–72 × 89, met de 89 in de díépterichting** — de wangen van de drop-in kamer zitten vóór en achter de regel, dus alleen de dieptemaat telt voor het splijtvlees (2×25 mm naast een 38 mm regel); in het zicht is de poot dan een slanke ~7 cm. Echt 70×70 kan ook, maar dan bovenregels met rechte keep + slotbout (wangen ~16 mm — te min voor een wiggende staart, genoeg voor een keep; trek door staal). Lamineren = recht; kamers mee uitsparen bij het verlijmen. Inkoopvariant (12-08): **vuren 44×144 × 3 m → in de lengte rippen → 2× ~44×70 → per twee verlijmd = kolom ~88×70**; 1 balk = 3 poten (6 lamellen à 95 cm), restlamellen → kopframe-regels. Werkwijze: eerst afkorten (~1 m), dan rippen (rechter, minder trekken), dagen laten rusten, kroming tegen elkaar in verlijmen; de lijmnaad valt midden in de kamer → elke wang is massief. Let op: regels uit 44 mm → wangen 22 mm (krap voor een staart, prima voor keep + slotbout); regels 38 mm SLS → wangen 25 mm. **Lange regels 38×89 op de kant, mét middensteun** — 140 hoog naast een 88-kolom oogt topzwaar (12-08); 38×89 buigt op 1,9 m vrij ~6 mm bij 100 kg puntlast, maar met een steun halverwege ~0,7 mm — stijver dan 38×140 zonder. Middensteun = middenpoten (beslist de open 4-of-6-vraag richting 6) óf de vastgeschroefde modules dragend uitvoeren. **Kopframe-regels 38×89** (breed genoeg voor forse zwaluwstaarten). Inkoop: 38×184 → 2× 89 rippen (pootlamellen + kopregels), 38×140 alleen afkorten.
-- Kopframes (links/rechts): poten en regels met **verlijmde zwaluwstaarten** (dovetails) — in vuren grove hoek (~1:6) en brede, forse staarten; oriëntatie zó dat belasting de verbinding aantrekt.
-- Lengteverbindingen demontabel — **boven- en onderregels zijn verschillende gevallen**:
-  - **Bovenregels** (bovenkant vlak met de pootkop — het blad steunt erop, dus de kamer zit onvermijdelijk in het kopse hout van de pootkop). Verticaal dragen is daar juist ijzersterk: de regel drukt op de kamerbodem = kops hout in de drukrichting van de draad; de staartvorm doet daaraan niet mee. Het splijtrisico (wangen langs de draad afwiggen) speelt alleen bij trek. Twee opties: **drop-in zwaluwstaart** met dikke wangen (≥ ~25 mm), flauwe hoek (1:8) en het blad als vastgeschroefd deksel — zelfborgend, klein restrisico; of **rechte keep + slotbout** — zelfde drop-in-montage en draging, trek door staal i.p.v. wigkracht, nul splijtrisico, natrekbaar.
-  - **Onderregels** (halverwege de poot, dragen de onderplank): langshout boven de kamer, dus geen kops-houtprobleem. Schuifzwaluwstaart (sliding dovetail), doorgaande pen met spie (wedged through tenon, Moravisch) of borstpen + slotbout kunnen alle drie; spie of bout maakt de verbinding natrekbaar.
-- **Bladregistratie in de poten** (à la Rex Krueger's joiner's bench): het schort valt met inkepingen over de voorpoten → blad + schort worden zelf het schoorvlak aan de voorkant, geen diagonale schoren nodig. Vooraan vast (matcht "voorkant vast"), achteraan registreren met speling (sleuven) voor de houtwerking.
-- Onderplank op ~5–10 cm van de grond over de onderregels: ladekast en zwaar spul erop, niets op de grond (vocht). Vastgeschroefd werkt de plank als schijf en verstijft hij het frame onderin.
-- Kastmodules uit 18 mm underlayment/multiplex (kooplijst rekent 2–3 platen à €35–45), los gebouwd en in het frame geschroefd — vastgeschroefd werken ze als schotten en verstijven ze het frame alsnog.
+- Houtsoort: vuren (SLS/bouwhout) als basis; douglas als hardere optie voor kneusgevoelige verbindingen; Southern Yellow Pine alleen bij speciaalzaken — niet nodig.
+- Werkwijze bouwhout: 1–2 weken acclimatiseren; eerst afkorten (~1 m), dan rippen (rechter, minder spanningstrek); dagen laten rusten; kroming tegen elkaar in verlijmen; 20–30 % extra kopen en op rechtheid sorteren.
+- Zwaluwstaarten in vuren: grove hoek (1:6 à 1:8), brede forse staarten; oriëntatie zó dat belasting de verbinding aantrekt.
+- Kastmodules uit 18 mm underlayment/multiplex, los gebouwd en in het frame geschroefd — vastgeschroefd werken ze als schotten.
 - Onderste zone als massa-drager: zwaar spul onderin houdt de bank op zijn plek.
 
 ## Open vragen
 
-- Lengteverbindingen: onverlijmde zwaluwstaarten of slotbouten met borstpen?
-- Ladekast: staand op de onderplank of hangend tegen de onderzijde van het blad (besluit 05-08 zegt hangend)?
-- Registratiedetail blad/schort ↔ poten: inkeping in het schort of in de poot, en hoe combineert dit met de zwevende achterkant?
-- Balkmaat; 4 of 6 poten bij 200 cm lengte?
-- Hoe registreren de modules in het frame: klossen, schroeven door de zijwanden, of hangend aan de bovenregels?
-- Plaatmateriaal en exacte modulematen (open MBox-kast links, ladekast rechts).
-- Waterpas stellen: stelvoeten of uitvullen?
-- Muurbevestiging: type schroef/anker afstemmen op de houten wand.
-- Hoogteopbouw: blad 27 mm → onderbouw ~94 cm voor totaal 97 cm.
-
-## Beslissingen
-
-- **2026-08-12** — Constructie herzien: **balkenonderstel met daarin gemonteerde kastmodules** — een ladekast en een open MBox-kast — in plaats van één grote gesloten kast. *Waarom: geen zin in een groot kastbouwwerk; een balkenframe is robuust voor een werkbank en de modules zijn los te bouwen en later aan te passen. Het onderliggende doel van 05-08 (stofbeheersing + opslag) blijft staan, geborgd via de gesloten ladekast.*
-- **2026-08-05** — ~~Kastwerkbank met gesloten onderbouw, geen open onderstel~~ — herzien op 12-08 (zie boven); de motivatie (stofbeheersing en opslag in een kleine schuur) blijft gelden.
-- **2026-08-05** — Indeling: links de MBoxen, rechts ladekast tegen de onderzijde van het blad. Positie: tegen de wand tegenover de deur. (12-08: MBox-vak wordt een open kastmodule.)
-- **2026-08-07** — Maat 200 × 60 cm, 97 cm hoog; ± 20 cm ruimte tussen bank en stellingkast (kast blijft staan). *Waarom: 220 bleek niet nodig; lucht naast de kast is handig.* ⚠️ Datum zoals gelogd in bouwplan Rev. E.
-- **2026-08-07** — Verankering aan de wand, niet aan de stellingkast.
+- Verbinding lange regels ↔ pootkop: drop-in zwaluwstaart (wangen 25 mm bij 38 mm regel) of rechte keep + slotbout?
+- Verbinding onderregels ↔ poot: schuifzwaluwstaart, spie of slotbout?
+- Registratiedetail schort ↔ voorpoot: inkeping in het schort of in de poot; montagevolgorde.
+- Ladekast: staand op de onderplank of hangend tegen het blad (besluit 05-08 zegt hangend)?
+- Module-registratie in het frame (klossen / schroeven door zijwanden / hangend) en modulematen + plaatmateriaal.
+- Waterpas stellen: stelvoeten of uitvullen? Muurbevestiging: type schroef/anker voor de houten wand.
+- Hoogteopbouw narekenen: blad 27 mm → frame ~94,3 cm voor totaal 97.
 
 ## Relaties
 
-- [Werkblad](werkblad.md) — bepaalt samen de hoogte; zwevende montage achteraan (sleufgaten in de bovenregels van het frame).
+- [Werkblad](werkblad.md) — bepaalt samen de hoogte; voorkant registreert over de voorpoten, achterkant zweeft op de achterbovenregel (sleufgaten).
 - [Ladeblok](ladeblok.md) — de ladekastmodule rechts; vastgeschroefd verstijft hij het frame.
-- [Bankschroef](bankschroef.md) — inbouwdiepte moet vrijlopen van het MBox-vak.
+- [Bankschroef](bankschroef.md) — hangt aan de voorregel; slede-envelope bepaalt de linker framezone en de MBox-moduletop.

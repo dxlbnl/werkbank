@@ -22,10 +22,14 @@ Een voorspanschroef (face vise / voorspanschroef) links van het midden, vlak met
 
 - Exemplaar vinden en kopen; richtprijs tweedehands € 80–150.
 - Aankoopchecks: snelversteller pakt over de volle slag, spindel recht, gietwerk zonder (haar)scheuren — gietijzer breekt, het buigt niet.
-- Inbouwdiepte t.o.v. het MBox-vak controleren.
+- Bij aankoop meteen opmeten: sledediepte, boutpatroon, hoogte gietbek (bepaalt uitsparing in de voorregel en de MBox-moduletop).
 - Bekbreedte definitief: 30 of 40 cm.
 
 ## Beslissingen
+
+- **2026-08-12** — **Montage aan de voorregel van het frame, niet aan het blad.** Slede zo hoog mogelijk (eventueel door een uitsparing in de regel); de gietribben van de voet worden in de regel ingelaten — passen zolang de regel nog los is. *Waarom: het 27 mm blad is te dun als drager, en de regel is toch al montagehout.*
+- **2026-08-12** — **Het schort is de vaste bek** (Nicholson-stijl); het beweegbare houten blok lijnt uit met de bládbovenkant — het gietijzer blijft onder het werkvlak. Montagedetail (bouten door het schort) nog uitwerken.
+- **2026-08-12** — **Volgorde:** eerst exemplaar kopen en opmeten — sledediepte, boutpatroon, hoogte gietbek — dán de linker framezone en de MBox-moduletop definitief maken. Tot die tijd ~50 diep × 25 breed × 15 hoog achter het schortvlak reserveren. Bekende specs 52½: bek 230 mm, opening 330 mm, gietbek ~100 mm hoog.
 
 - **2026-08-07** — Record 52½ op het oog (exemplaar ± 1920): snelspanner, **géén** ingebouwde opduwhaak (pop-up dog) — dat heeft dit oude exemplaar niet, anders dan latere 52½'s. Dog-functie via Ø20-gaten in de beuken bekken. ⚠️ Datum zoals gelogd in bouwplan Rev. E; sessie vermoedelijk 12-08.
 - **2026-08-07** — Positie: bek start ± 50 cm van links, vlak met het 20 cm-schort; beuken bekken 30–40 cm (n.t.b.) uit bladrestant.

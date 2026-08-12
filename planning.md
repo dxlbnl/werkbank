@@ -32,6 +32,17 @@ Bouwfasen, kooplijst en printlijst. Verhuisd uit `overzicht.html` (12-08) — da
 - Gereedschapswand: houders per machine printen/maken en direct in de wand schroeven.
 - Hoek naast raam inrichten voor lang materiaal en platen.
 
+## Zaaglijst onderstel (besluit 12-08, maten netto ~2 mm schaafmarge)
+
+| Aantal | Onderdeel | Kopmaat | Zaaglengte | Opmerking |
+|---|---|---|---|---|
+| 8 | pootlamellen | 44×70 | 97 cm | uit 44×144 gerippt; per 2 verlijmd → 4 poten ~88×70 × 94 |
+| 4 | kopframe-regels | 44×70 | 55 cm | uit de restlamellen; verlijmde zwaluwstaarten |
+| 4 | lange regels (2 boven, 2 onder) | 38×89 | 200 cm | op de kant |
+| 6 | dwarsregels (3 boven, 3 onder) | 38×89 | 62 cm | bridle over de lange regels, verlijmd |
+
+Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippen → 6 lamellen; 2 balken = 12 lamellen = 8 poot + 4 kopregel — precies passend, dus bij veel kwasten een 3e balk als uitval) + **6× SLS 38×89 × 210 cm** (4× voor de lange regels, 2× voor 3 dwarsregels elk) *of* 4× 300 + 1× 240.
+
 ## Kooplijst-skelet (prijzen indicatief)
 
 | Item | Toelichting |

@@ -4,6 +4,7 @@ Chronologisch projectlog (nieuwste boven). Beslissingen per onderdeel staan geza
 
 | Datum | Gebeurtenis |
 |---|---|
+| 12-08 | **Onderstel-besluiten (Rev. H):** 4 poten zonder middenpoten; boven- en onderrooster van 2 lange regels 38×89 + 3 dwarsregels met verlijmde bridle joints; poten ~88×70 uit gerippte 44×144; bankschroef aan de voorregel (ribben inlaten, schort = vaste bek, houten blok tot bladbovenkant); zaaglijst in planning.md. Werkwijze-afspraak: overdenken in de chat, committen pas bij besluit. |
 | 12-08 | `overzicht.html` teruggebracht tot tekeningenblad (Rev. G) met nieuw onderstel-schema; inhoud verhuisd naar `planning.md`, `logboek.md`, `vaktermen.md` en de subproject-md's. |
 | 12-08 | Onderstel-ontwerpsessie: balkenframe met bouwhout (groter kopen, zelf schulpen), kopframes met verlijmde zwaluwstaarten, lengteverbindingen demontabel (opties per regelpositie uitgewerkt — kops-houtdiscussie), bladregistratie over de voorpoten à la Rex Krueger, onderplank ~5–10 cm boven de vloer. Plint bleek onterecht gedocumenteerd en is geschrapt. |
 | 12-08 | **Correcties (Rev. F):** raster naar steek 100 mm (was 96 — nut niet overtuigend, meer-gats mallen worden toch zelf geprint); fence-keuze heropend (20×40 plat blijft kandidaat); invalzaag Makita SP001GM102 (XGT) besteld; afzuiger-aansturing wordt zelfbouw ESP32-BLE-schakelstekkerdoos (Shelly geparkeerd); onderbouw wordt balkenframe met ingebouwde kastmodules i.p.v. gesloten kast; XPS-offerplaat vervallen → vaste kerflijnen. Klapper-motivatie bij de ladebodemgroeven genuanceerd. |
