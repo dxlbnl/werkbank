@@ -60,6 +60,7 @@ Dexter leert houtbewerkings-vaktermen: bij Engelse termen altijd de Nederlandse 
 | rail / stretcher | regel |
 | leg | poot / stijl |
 | torsion box | torsiedoos |
+| lamination / ply | lamel — één strook in een verlijmde stapel; lamineren = stroken tot één geheel verlijmen (vgl. gelamelleerd blad) |
 
 ## Gereedschap & overig
 

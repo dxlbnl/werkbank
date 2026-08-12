@@ -32,6 +32,7 @@ De repo wordt via GitHub Pages ook als website geserveerd op [dxlbnl.github.io/w
 5. **De html is een tekeningenblad, de md's zijn de bron.** `overzicht.html` bevat alléén schematische tekeningen (sinds 12-08). Inhoudelijke details, afwegingen, beslissingen, planning en termen horen in de md's. Bij tegenspraak wint de md.
 6. **Status bijhouden.** Elk subproject heeft een status (🌱 verkennen / 📐 ontwerpen / 🔨 bouwen / ✅ klaar), zowel in het bestand zelf als in de tabel in `README.md`. Houd die synchroon.
 7. **Nieuwe onderdelen.** Een los idee begint in `ideeen.md`. Zodra het serieus wordt, krijgt het een eigen md in `subprojecten/` (kopieer de opbouw van een bestaand bestand) en een regel in de README-tabel en in `overzicht.html`.
+8. **Overdenken in de chat, vastleggen bij landing.** Tussenstanden van een lopende discussie horen niet in de repo. Pas committen als iets landt: een besluit, een gecorrigeerd feit, of op expliciet verzoek — en dan gebatcht in één betekenisvolle commit, niet per gedachte. Uitgebreide afwegingen in een md worden bij het besluit gecondenseerd tot één gedateerde beslissing met motivatie.
 
 ## Herkomst van deze afspraken
 
