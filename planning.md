@@ -34,12 +34,13 @@ Bouwfasen, kooplijst en printlijst. Verhuisd uit `overzicht.html` (12-08) — da
 
 ## Zaaglijst onderstel (besluit 12-08, maten netto ~2 mm schaafmarge)
 
-| Aantal | Onderdeel | Kopmaat | Zaaglengte | Opmerking |
+| Aantal | Onderdeel | Kopmaat | Zaaglengte | Verbinding einden / maatopbouw |
 |---|---|---|---|---|
-| 8 | pootlamellen | 44×70 | 97 cm | uit 44×144 gerippt; per 2 verlijmd → 4 poten ~88×70 × 94 |
-| 4 | kopframe-regels | 44×70 | 55 cm | uit de restlamellen; verlijmde zwaluwstaarten |
-| 4 | lange regels (2 boven, 2 onder) | 38×89 | 200 cm | op de kant |
-| 6 | dwarsregels (3 boven, 3 onder) | 38×89 | 62 cm | bridle over de lange regels, verlijmd |
+| 8 | pootlamellen | 44×70 | 97 cm | per 2 verlijmd → 4 poten ~88×70 × 94; kamers in de pootkop vóór het verlijmen uitsparen |
+| 4 | kopframe-regels | 44×70 | 55 cm | beide einden verlijmde zwaluwstaart, ingelaten in het pootvlak: binnenmaat ~42 + 2× ~5 inlaat + marge |
+| 2 | bovenregels | 38×89 | 200 cm | beide einden drop-in in de pootkop (staart óf keep + slotbout — open); 200 = buitenmaat frame, einden vlak met de poot |
+| 2 | onderregels | 38×89 | 200 cm | ⚠️ verbinding nog open: keep/staart/slotbout → 200 volstaat; wordt het doorgaande pen met spie, dan ~210 nodig (2× door de poot + uitsteek) |
+| 6 | dwarsregels (3 boven, 3 onder) | 38×89 | 62 cm | beide einden vork (bridle, verlijmd) óver de lange regels: buitenmaat over beide regels (~56–58, volgt uit schortdetail) + marge; vorken 38 diep |
 
 Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippen → 6 lamellen; 2 balken = 12 lamellen = 8 poot + 4 kopregel — precies passend, dus bij veel kwasten een 3e balk als uitval) + **6× SLS 38×89 × 210 cm** (4× voor de lange regels, 2× voor 3 dwarsregels elk) *of* 4× 300 + 1× 240.
 
