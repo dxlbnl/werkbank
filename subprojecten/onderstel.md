@@ -11,7 +11,7 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 - [x] Stofbeheersing in een kleine werkplaats (~4,8 m²): de ladekastmodule is gesloten/stofdicht; het MBox-vak mag open (de MBoxen sluiten zelf).
 - [ ] Draagt blad + ladekast + MBoxen ruimschoots; stijf genoeg als klem-onderlaag.
 - [ ] Verankering aan de houten wand, níét aan de stellingkast.
-- [ ] Sleufgaten in de achterbovenregel voor de zwevende achterkant van het blad.
+- [ ] Sleufgaten voor de zwevende bladachterkant (12-08): in de diepterichting, 6 mm schroef met brede ring, handvast + kwartslag terug. Achterregel en achterste punt dwarsregels: 7×25 mm; punten halverwege de diepte: 7×15; voorste ~10 cm bij het schort: ronde gaten (vaste kant). Montage: schroef in het sleufeind dat bij het seizoen past (winter = achteraan, zomer = vooraan).
 - [ ] Enigszins demontabel: kopframes en roosters verlijmd, de koppeling daartussen los te nemen.
 - [ ] Linker voorzone vrijhouden voor de bankschroef: ~50 diep × 25 breed × 15 hoog achter het schortvlak (zie [bankschroef](bankschroef.md)).
 
