@@ -17,7 +17,7 @@ Bouwfasen, kooplijst en printlijst. Verhuisd uit `overzicht.html` (12-08) — da
 
 ### Fase 2 — Blad + schort
 - Blad afkorten (200) en rippen (60).
-- Schort (18 mm paneel) aan de bladvoorrand verbinden (detail n.t.b.), verlijmen, dán oliën (alle zijden).
+- Sponning frezen in de onderkant van de bladvoorrand (~18×12, op paneeldikte); schort (18 mm paneel) erin verlijmen, dán oliën (alle zijden).
 - Boormal printen en kalibreren; raster frezen (zie [bankhaakgaten](subprojecten/bankhaakgaten.md)).
 - Montage: voorkant vast (registratie over de voorpoten), achterkant sleufgaten; bankschroef monteren.
 
