@@ -27,6 +27,19 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 - **2026-08-07** — Maat 200 × 60 cm, 97 cm hoog; ± 20 cm ruimte tussen bank en stellingkast (kast blijft staan). ⚠️ Datum zoals gelogd in bouwplan Rev. E.
 - **2026-08-07** — Verankering aan de wand, niet aan de stellingkast.
 
+## Zaaglijst (besluit 12-08, maten netto ~2 mm schaafmarge)
+
+| Aantal | Onderdeel | Kopmaat | Zaaglengte | Verbinding einden / maatopbouw |
+|---|---|---|---|---|
+| 8 | pootlamellen | 44×70 | 97 cm | per 2 verlijmd → 4 poten ~88×70 × 94; kamers in de pootkop vóór het verlijmen uitsparen |
+| 4 | kopframe-regels | 44×70 | 55 cm | beide einden verlijmde zwaluwstaart, ingelaten in het pootvlak: binnenmaat ~42 + 2× ~5 inlaat + marge |
+| 2 | bovenregels | 38×89 | 200 cm | beide einden drop-in in de pootkop (staart óf keep + slotbout — open); 200 = buitenmaat frame, einden vlak met de poot |
+| 2 | onderregels | 38×89 | 200 cm | ⚠️ verbinding nog open: keep/staart/slotbout → 200 volstaat; wordt het doorgaande pen met spie, dan ~210 nodig (2× door de poot + uitsteek) |
+| 6 | dwarsregels (3 boven, 3 onder) | 38×89 | 62 cm | beide einden vork (bridle, verlijmd) óver de lange regels: buitenmaat over beide regels (~56–58, volgt uit schortdetail) + marge; vorken 38 diep |
+| 1 | bevestigingslat blad | ~20×40 | ~190 cm | tegen binnenkant achterregel; sleuven 7×25 erin (zie eisen) |
+
+Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippen → 6 lamellen; 2 balken = 12 lamellen = 8 poot + 4 kopregel — precies passend, dus bij veel kwasten een 3e balk als uitval) + **6× SLS 38×89 × 210 cm** (4× voor de lange regels, 2× voor 3 dwarsregels elk) *of* 4× 300 + 1× 240.
+
 ## Ideeën & opties
 
 - Houtsoort: vuren (SLS/bouwhout) als basis; douglas als hardere optie voor kneusgevoelige verbindingen; Southern Yellow Pine alleen bij speciaalzaken — niet nodig.
