@@ -4,6 +4,7 @@ Chronologisch projectlog (nieuwste boven). Beslissingen per onderdeel staan geza
 
 | Datum | Gebeurtenis |
 |---|---|
+| 14-08 | **Kopregel-verlaging teruggedraaid** — was door Claude eigenmachtig besloten; blad moet rondom gedragen. Vervangen door voorstel Dexter: verbindingen gelaagd in de pootkop (lange-regel-kamer boven, kopregel-staart onderin de regel), kopregel-hoogte open (70 vs 89). Nieuwe werkwijze-regel: ontwerpbeslissingen neemt Dexter, Claude legt alleen opties voor. Tekening 05: montageblok bankschroef toegevoegd. |
 | 14-08 | **Correctieronde tekeningen (Rev. K)** na review Dexter: schort zonder zichtschroeven (zakgatschroeven vanaf de pootzijkanten), voorregel correct bínnen getekend, hoogte-offset kopregels (botsende verbindingen in de poot), bankschroef met vulblok + bouten van onderen + sponning ingetekend, kopregels in het bovenaanzicht, alle tekstbotsingen eruit (headless render-check ingevoerd). |
 | 14-08 | **Verbindingen definitief (Rev. J):** regels vlak met poot-binnenvlak, alle pennen/staarten geschouderd (≥10–20 mm binnenwang); bovenregels drop-in zwaluwstaart, onderregels pen-en-gat, onder-dwarsregels pen-en-gat 18 mm verlaagd (plank erop). Tekening 03 hertekend: bovenaanzicht rooster + vooraanzicht + zijaanzicht + detail E (geschouderde pen); tekening 04 gecorrigeerd na review Dexter (lat lag verkeerd om, sleuf paste niet). |
 | 14-08 | SP001G geleverd. Tekeningen 04 (ophangdetails blad: sponning, pootkeep, zwevende achterkant) en 05 (bankschroef aan de voorregel) toegevoegd — Rev. I. |

@@ -5,6 +5,7 @@ Dit is het werkbankproject van Dexter: levende documentatie voor het ontwerpen e
 Kern in het kort:
 
 - Alle inhoud leeft in `subprojecten/*.md` (één bestand per onderdeel), `ideeen.md` (backlog), `planning.md` (fasen/kooplijst/printlijst), `logboek.md` (chronologie) en `vaktermen.md` (termenlijst).
+- **Ontwerpbeslissingen neemt Dexter.** Claude legt opties met afwegingen voor en voert pas door na expliciet akkoord — nooit zelf een ontwerpkeuze "besluiten" en doorvoeren (ook niet als oplossing voor een gevonden probleem).
 - **Neem niets aan van wat eerder is gezegd of opgeschreven** — plannen veranderen door voortschrijdend inzicht. Alleen de *Beslissingen*-secties gelden als besloten, en ook die mogen heroverwogen worden (log dan een nieuwe, gedateerde beslissing).
 - Beslissingen altijd loggen met datum en motivatie; open vragen expliciet in de *Open vragen*-sectie zetten.
 - Houd statussen synchroon tussen subproject-md's, de tabel in `README.md` en `overzicht.html`.
