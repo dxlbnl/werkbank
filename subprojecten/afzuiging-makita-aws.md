@@ -23,8 +23,8 @@ Stofafzuiging voor de invalzaag (en later andere machines) in een kleine, geslot
 ## Open vragen
 
 - **ESP-detectie:** hoe merkt de ESP32 dat de zaag draait? Adverteert de SP001G (of een AWS-zender erin) iets bruikbaars over BLE, of is stroom-/geluidsdetectie nodig als fallback? Uitzoeken zodra de zaag er is.
-- **Veilig schakelen:** 230V-relais/SSR, behuizing, zekering — hoe bouwen we dit netjes en veilig?
-- **Nalooptijd:** afzuiger een paar seconden laten doordraaien na het stoppen van de zaag.
+- **Veilig schakelen:** flashbare meetplugs (welke zijn anno nu nog met ESPHome te flashen?) of tóch een relaisdoos; inschakelpiek zaag + stofzuiger op één groep.
+- **Drempel en naloop:** meetdrempel (standby vs. draaien) en nalooptijd afregelen in de praktijk.
 - Welke afzuiger: nu de aansturing zelfbouw is, hoeft het geen AWS-model te zijn — merk/type vrij te kiezen.
 - Slangroute op de bank; adapterlijst per machine.
 
@@ -32,6 +32,7 @@ Stofafzuiging voor de invalzaag (en later andere machines) in een kleine, geslot
 
 - **2026-08-12** — Invalzaag: **Makita SP001GM102 (XGT) besteld**, onderweg. *Waarom: verhoogd motorhuis (geen conflict met bankhaken/klemmen), elektronische remstop, accu — zie de evaluatie van 09-08 onder Ideeën & opties.*
 - **2026-08-12** — Aansturing afzuiger: **zelfbouw ESP32 met BLE** die een stopcontact schakelt zodra de zaag actief is. *Waarom: leuker en flexibeler dan een AWS-stofzuiger kopen; de afzuigerkeuze wordt er merkonafhankelijk door.* Shelly-route geparkeerd — lijkt nu onnodig complex, zien we later eventueel.
+- **2026-08-12** — Concept aangescherpt: **schakeldoos met drie triggers (OR)** voor het stofzuiger-stopcontact — (1) **vermogensmeting** op een machine-stopcontact (dekt elke "domme" snoermachine; drempel boven standby, bv. ~50 W), (2) **handknop**, (3) **AWS/BLE** (dekt accumachines — de SP001G trekt geen meetbare netstroom). Met nalooptijd (5–10 s). Bouwrichting: netspanning in kant-en-klare, met ESPHome flashbare meetplugs (BL0937-type); de eigen ESP32 met knop en BLE doet alleen laagspanningslogica.
 
 ## Relaties
 
