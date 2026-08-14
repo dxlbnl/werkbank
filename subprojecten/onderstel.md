@@ -50,8 +50,9 @@ Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippe
 
 ## Open vragen
 
-- Verbinding lange regels ↔ pootkop: drop-in zwaluwstaart (wangen 25 mm bij 38 mm regel) of rechte keep + slotbout?
-- Verbinding onderregels ↔ poot: schuifzwaluwstaart, spie of slotbout?
+- Verbinding bovenregels ↔ pootkop: voorkeur (14-08) **drop-in zwaluwstaart**; definitief bij de detailtekening.
+- Verbinding onderregels ↔ poot: voorkeur (14-08) **pen-en-gat**; borging (deuvel/onverlijmd) nog open.
+- Uitlijning regels t.o.v. de poten (14-08): vlak met het poot-bínnenvlak (onderplank = simpele rechthoek, maar de verbinding wordt halfopen — staart met één flank, gat wordt borst-keep) óf ~15–18 mm terugliggend met een sponning in de regel voor de plank (verbinding houdt twee wanden). Keuze bepaalt de detailtekeningen.
 - Registratiedetail schort ↔ voorpoot: bij het 18 mm-paneelschort (12-08) liever de inkeping in de poot dan in het dunne paneel; montagevolgorde.
 - Ladekast: staand op de onderplank of hangend tegen het blad (besluit 05-08 zegt hangend)?
 - Module-registratie in het frame (klossen / schroeven door zijwanden / hangend) en modulematen + plaatmateriaal.
