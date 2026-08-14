@@ -458,42 +458,37 @@
         <text x="40" y="405" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">verlijmd in de sponning</text>
         <text x="40" y="418" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">(rood gestippeld = lijmvlak)</text>
 
-        <!-- ===== detail C: schortbevestiging bij de voorpoot (bovenaanzicht, 1,2 px/mm) ===== -->
-        <text x="398" y="36" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail C — schort bij de voorpoot</text>
-        <text x="398" y="50" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">bovenaanzicht t.h.v. het schort · 1,2 px/mm</text>
-        <!-- blad (ghost) -->
-        <rect x="290" y="90" width="216" height="220" fill="none" stroke="#4E6B51" stroke-width="1" stroke-dasharray="5 4"/>
-        <text x="296" y="104" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#4E6B51">blad (erboven)</text>
-        <!-- voorregel: vlak met poot-binnenvlak, dus ~50 mm achter het schort -->
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.2">
-          <rect x="290" y="182" width="66" height="46"/>
-          <rect x="440" y="182" width="66" height="46"/>
+        <!-- ===== detail C: schort-poot, hap + keep (vooraanzicht, 1,2 px/mm) ===== -->
+        <text x="398" y="36" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail C — schort–poot: hap + keep</text>
+        <text x="398" y="50" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">vooraanzicht linkerpoot · 1,2 px/mm</text>
+        <!-- bladrand -->
+        <rect x="282" y="94" width="238" height="14" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.5"/>
+        <text x="470" y="88" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#4E6B51">blad (schort in sponning)</text>
+        <!-- poot: gestippeld achter het schort, massief in de hap -->
+        <rect x="296" y="108" width="84" height="80" fill="none" stroke="#262319" stroke-width="1" stroke-dasharray="4 3"/>
+        <rect x="296" y="188" width="84" height="192" fill="#E4E0D5" stroke="#262319" stroke-width="1.6"/>
+        <!-- schort met hap (flank stopt boven de onderrand: stompe punt) -->
+        <path d="M292 108 L520 108 L520 350 L412 350 L412 330 L378 188 L292 188 Z" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.8" fill-opacity="0.85"/>
+        <line x1="520" y1="110" x2="520" y2="348" stroke="#F3F1EA" stroke-width="3"/>
+        <!-- contactpunt flank/pootrand -->
+        <circle cx="381" cy="200" r="4" fill="none" stroke="#B0402F" stroke-width="1.4"/>
+        <!-- borgschroef -->
+        <g stroke="#262319" stroke-width="1.4" fill="none">
+          <circle cx="338" cy="146" r="6"/>
+          <line x1="334" y1="142" x2="342" y2="150"/><line x1="342" y1="142" x2="334" y2="150"/>
         </g>
-        <!-- poot 70 breed × 88 diep; voorvlak vlak met schortvoorzijde (keep 18 diep) -->
-        <rect x="356" y="182" width="84" height="128" fill="#E4E0D5" stroke="#262319" stroke-width="1.6"/>
-        <!-- schort strip: loopt door de keep in de poot -->
-        <rect x="290" y="288" width="216" height="22" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.5"/>
-        <!-- keep-grens in de poot -->
-        <line x1="356" y1="288" x2="440" y2="288" stroke="#262319" stroke-width="1" stroke-dasharray="3 2"/>
-        <!-- zakgatschroeven vanaf de pootzijkanten -->
-        <g stroke="#262319" stroke-width="2" fill="none">
-          <line x1="376" y1="240" x2="376" y2="296"/>
-          <line x1="420" y1="240" x2="420" y2="296"/>
-        </g>
-        <g fill="#262319">
-          <rect x="371" y="236" width="10" height="5"/>
-          <rect x="415" y="236" width="10" height="5"/>
-        </g>
-        <line x1="514" y1="288" x2="514" y2="310" stroke="#B0402F" stroke-width="1" marker-start="url(#m4)" marker-end="url(#m4)"/>
-        <text x="524" y="303" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#B0402F">18</text>
-        <line x1="398" y1="228" x2="398" y2="252" stroke="#262319" stroke-width="0"/>
-        <text x="290" y="340" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">schort in een keep (18) in de poot, voor-</text>
-        <text x="290" y="353" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">vlakken vlak; verzonken schroeven dóór de</text>
-        <text x="290" y="366" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">poot in de schortrug — géén zichtschroeven;</text>
-        <text x="290" y="379" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">boven vast, onderin sleuf (werking ↓ 2–4)</text>
-        <text x="290" y="401" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">voorregel ligt ~50 achter het schort</text>
-        <text x="290" y="414" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">(binnenvlak-uitlijning) en draagt het</text>
-        <text x="290" y="427" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">schort dus níét; hoofdverbinding = sponning</text>
+        <line x1="346" y1="143" x2="440" y2="128" stroke="#262319" stroke-width="0.8"/>
+        <text x="446" y="130" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">borgschroef, verzonken</text>
+        <text x="446" y="142" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">dóór de poot (hoog)</text>
+        <!-- flanklabel -->
+        <line x1="396" y1="262" x2="446" y2="262" stroke="#262319" stroke-width="0.8"/>
+        <text x="450" y="266" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">flank ~10–15°</text>
+        <!-- teksten -->
+        <text x="290" y="398" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">poot in keep (18) achter het schort; de hap</text>
+        <text x="290" y="411" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">wigt op de pootrand (○); flank stopt ~20 boven</text>
+        <text x="290" y="424" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">de onderrand (stompe punt); rechterpoot ge-</text>
+        <text x="290" y="437" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">spiegeld → samen borgen ze beide richtingen</text>
+        <text x="290" y="457" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">speling voor werking (2–4); radius in binnenhoeken</text>
 
         <!-- ===== detail D: zwevende achterkant (doorsnede + onderaanzicht, 2 px/mm) ===== -->
         <text x="655" y="36" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail D — zwevende achterkant</text>
