@@ -13,6 +13,7 @@ README.md                  — startpunt + index van subprojecten
 WERKWIJZE.md               — dit bestand
 CLAUDE.md                  — instructies die Claude bij elke sessie leest
 overzicht.html             — tekeningenblad (alléén schematische tekeningen)
+tekening.js                — componentbibliotheek voor de tekeningen (mm-gebaseerd)
 ideeen.md                  — backlog van losse ideeën
 planning.md                — bouwfasen, kooplijst, 3D-printlijst
 logboek.md                 — chronologisch projectlog

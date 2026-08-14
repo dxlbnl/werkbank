@@ -71,10 +71,14 @@
     border-left:3px solid var(--groen);background:var(--paper-2);
     padding:10px 14px;font-size:13.5px;margin-top:14px;
   }
+  .tekenrij{display:flex;flex-wrap:wrap;gap:6px 30px;align-items:flex-start}
+  .aanzicht-titel{font-family:'IBM Plex Mono',monospace;font-size:11px;color:#262319;margin:10px 0 4px}
+  .aanzicht-sub{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:#86816F}
   @media print{body{background:#fff}.sheet{padding:0}}
 </style>
 </head>
 <body>
+<script src="tekening.js"></script>
 <div class="sheet">
 
   <header class="titelblok">
@@ -84,7 +88,7 @@
     </div>
     <div>
       <span class="tb-label">Status</span>
-      <span class="tb-value">Rev. K</span>
+      <span class="tb-value">Rev. L</span>
       <span class="sub">alleen tekeningen — inhoud leeft in de md's</span>
     </div>
     <div>
@@ -285,138 +289,10 @@
 
   <!-- ============ 3. ONDERSTEL ============ -->
   <section>
-    <h2>Onderstel — balkenframe <span class="nr">tekening 03 · bovenaanzicht, vooraanzicht, zijaanzicht + detail E</span></h2>
+    <h2>Onderstel — balkenframe <span class="nr">tekening 03 · gegenereerd met tekening.js — maten uit één bron</span></h2>
     <figure>
-      <svg viewBox="0 0 770 740" role="img" aria-label="Balkenframe-onderstel: bovenaanzicht van het rooster, vooraanzicht, zijaanzicht kopframe en detail van de geschouderde pen">
-        <defs>
-          <marker id="m3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M1 1L9 5L1 9" fill="none" stroke="#B0402F" stroke-width="1.4"/>
-          </marker>
-        </defs>
-
-        <!-- ========== BOVENAANZICHT bovenrooster (1,9 px/cm) ========== -->
-        <text x="90" y="40" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">bovenaanzicht bovenrooster (blad weggelaten)</text>
-
-        <!-- poten (88 diep × 70 breed) -->
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.6">
-          <rect x="90" y="70" width="13" height="17"/>
-          <rect x="457" y="70" width="13" height="17"/>
-          <rect x="90" y="167" width="13" height="17"/>
-          <rect x="457" y="167" width="13" height="17"/>
-        </g>
-        <!-- kopregels: bovenkant vlak, dragen het blad mee -->
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.3">
-          <rect x="96" y="87" width="7" height="80"/>
-          <rect x="457" y="87" width="7" height="80"/>
-        </g>
-        <!-- lange regels, vlak met poot-binnenvlak -->
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.3">
-          <rect x="103" y="80" width="354" height="7"/>
-          <rect x="103" y="167" width="354" height="7"/>
-        </g>
-        <!-- 3 dwarsregels: bridle, einden vlak met de buitenvlakken van de lange regels -->
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.3">
-          <rect x="172" y="80" width="7" height="94"/>
-          <rect x="276" y="80" width="7" height="94"/>
-          <rect x="381" y="80" width="7" height="94"/>
-        </g>
-        <!-- bankschroef-envelope -->
-        <rect x="185" y="136" width="48" height="48" fill="none" stroke="#B0402F" stroke-width="1" stroke-dasharray="5 3"/>
-        <!-- labels rechts, elk op eigen regel -->
-        <line x1="461" y1="127" x2="512" y2="127" stroke="#262319" stroke-width="0.8"/>
-        <text x="518" y="131" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">kopregel 38×89 — vlak bovenaan, draagt het blad</text>
-        <line x1="384" y1="80" x2="540" y2="48" stroke="#262319" stroke-width="0.8"/>
-        <text x="760" y="44" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">3× dwarsregel (bridle, vlak bovenaan)</text>
-        <line x1="350" y1="172" x2="350" y2="204" stroke="#262319" stroke-width="0.8"/>
-        <text x="336" y="208" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">voorregel — vlak met poot-bínnenvlak</text>
-        <line x1="209" y1="160" x2="130" y2="216" stroke="#B0402F" stroke-width="0.8"/>
-        <text x="126" y="228" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#B0402F">zone bankschroef ~50×25 vrijhouden</text>
-        <!-- maten -->
-        <line x1="90" y1="248" x2="470" y2="248" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="280" y="262" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F">200</text>
-        <line x1="496" y1="70" x2="496" y2="184" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="510" y="170" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F">60</text>
-        <text x="280" y="198" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#86816F">voorzijde (werkperspectief)</text>
-        <!-- notitieblok rechtsboven -->
-        <text x="560" y="200" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">onderrooster idem, maar:</text>
-        <text x="560" y="214" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">dwarsregels pen-en-gat,</text>
-        <text x="560" y="228" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">18 mm verlaagd; plank</text>
-        <text x="560" y="242" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">(rechthoek) rust erop</text>
-
-        <!-- ========== VOORAANZICHT (1,9 px/cm) ========== -->
-        <text x="90" y="296" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">vooraanzicht</text>
-        <line x1="60" y1="500" x2="500" y2="500" stroke="#262319" stroke-width="2.5"/>
-        <!-- blad + schort (ghost) -->
-        <rect x="86" y="316" width="384" height="5" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.5"/>
-        <rect x="86" y="321" width="384" height="38" fill="none" stroke="#4E6B51" stroke-width="1" stroke-dasharray="5 4"/>
-        <!-- poten -->
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.6">
-          <rect x="90" y="321" width="13" height="179"/>
-          <rect x="457" y="321" width="13" height="179"/>
-        </g>
-        <!-- bovenregel -->
-        <rect x="103" y="321" width="354" height="17" fill="#E4E0D5" stroke="#262319" stroke-width="1.5"/>
-        <!-- onderregel + plank (vlak met regeltop) + verlaagde dwarsregels -->
-        <rect x="103" y="473" width="354" height="17" fill="#E4E0D5" stroke="#262319" stroke-width="1.5"/>
-        <line x1="103" y1="476" x2="457" y2="476" stroke="#262319" stroke-width="0.8" stroke-dasharray="4 3"/>
-        <g fill="none" stroke="#262319" stroke-width="1" stroke-dasharray="3 3">
-          <rect x="172" y="476" width="7" height="14"/>
-          <rect x="276" y="476" width="7" height="14"/>
-          <rect x="381" y="476" width="7" height="14"/>
-          <rect x="172" y="321" width="7" height="17"/>
-          <rect x="276" y="321" width="7" height="17"/>
-          <rect x="381" y="321" width="7" height="17"/>
-        </g>
-        <!-- labels -->
-        <line x1="280" y1="330" x2="280" y2="372" stroke="#262319" stroke-width="0.8"/>
-        <text x="280" y="386" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">bovenregel 38×89 — drop-in zwaluwstaart, geschouderd</text>
-        <line x1="300" y1="482" x2="300" y2="440" stroke="#262319" stroke-width="0.8"/>
-        <text x="300" y="416" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">onderregel 38×89 — pen-en-gat, geschouderd;</text>
-        <text x="300" y="428" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">plank (18, stippellijn) op de verlaagde dwarsregels</text>
-        <!-- maten -->
-        <line x1="86" y1="522" x2="470" y2="522" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="278" y="536" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F">200</text>
-        <line x1="64" y1="316" x2="64" y2="500" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="54" y="410" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F" transform="rotate(-90 54 410)">97</text>
-        <line x1="482" y1="490" x2="482" y2="500" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="492" y="498" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#B0402F">~5 vrij</text>
-
-        <!-- ========== ZIJAANZICHT kopframe (1,9 px/cm) ========== -->
-        <text x="560" y="296" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">zijaanzicht kopframe</text>
-        <line x1="540" y1="500" x2="760" y2="500" stroke="#262319" stroke-width="2.5"/>
-        <rect x="560" y="316" width="114" height="5" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.5"/>
-        <rect x="556" y="321" width="4" height="38" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1"/>
-        <g fill="#E4E0D5" stroke="#262319" stroke-width="1.6">
-          <rect x="560" y="321" width="17" height="179"/>
-          <rect x="657" y="321" width="17" height="179"/>
-        </g>
-        <!-- kopregels: in hoogte verzet (boven: ~5 cm onder de kop; onder: hoger dan de lange onderregel) -->
-        <path d="M577 321 L572 324 L572 331 L577 334 L657 334 L662 331 L662 324 L657 321 Z" fill="#E4E0D5" stroke="#262319" stroke-width="1.4"/>
-        <path d="M577 443 L572 446 L572 453 L577 456 L657 456 L662 453 L662 446 L657 443 Z" fill="#E4E0D5" stroke="#262319" stroke-width="1.4"/>
-        <line x1="640" y1="456" x2="655" y2="546" stroke="#262319" stroke-width="0.8"/>
-        <text x="650" y="558" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">kopregels vlak bovenaan (dragen het blad);</text>
-        <text x="650" y="570" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">38×89, staart onderin de regel (gelaagd)</text>
-        <line x1="560" y1="522" x2="674" y2="522" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="617" y="536" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#B0402F">60</text>
-
-        <!-- ========== DETAIL E: geschouderde pen (bovenaanzicht, 1,2 px/mm) ========== -->
-        <text x="90" y="592" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail E — geschouderde pen-en-gat, bovenaanzicht (principe voor alle regelverbindingen)</text>
-        <rect x="150" y="606" width="84" height="106" fill="#E4E0D5" stroke="#262319" stroke-width="1.6"/>
-        <rect x="70" y="606" width="80" height="46" fill="#E4E0D5" stroke="#262319" stroke-width="1.4"/>
-        <rect x="150" y="622" width="50" height="24" fill="#F3F1EA" stroke="#262319" stroke-width="1.1" stroke-dasharray="4 3"/>
-        <line x1="150" y1="606" x2="150" y2="712" stroke="#262319" stroke-width="1.6"/>
-        <line x1="142" y1="606" x2="142" y2="622" stroke="#B0402F" stroke-width="1" marker-start="url(#m3)" marker-end="url(#m3)"/>
-        <text x="134" y="618" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#B0402F">≥10–20</text>
-        <line x1="175" y1="634" x2="300" y2="634" stroke="#262319" stroke-width="0.8"/>
-        <text x="306" y="630" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">pen kleiner dan het werk (borst rondom):</text>
-        <text x="306" y="643" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">het gat blijft rondom gesloten, óók al ligt</text>
-        <text x="306" y="656" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">het regelvlak vlak met het poot-binnenvlak</text>
-        <text x="306" y="678" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">zelfde principe bij de zwaluwstaart bovenin:</text>
-        <text x="306" y="691" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">staart geschouderd → kamer houdt binnenwang</text>
-        <text x="70" y="672" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#86816F">binnenzijde ↑</text>
-        <text x="70" y="730" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#86816F">regel 38×89 · poot 88×70</text>
-      </svg>
-      <figcaption><span>tekening 03 — balkenframe: bovenaanzicht rooster, vooraanzicht, zijaanzicht kopframe, detail E</span><span>rood = maatvoering / vrijhouden · gestippeld = verdekt of ghost · maten cm (detail E in mm)</span></figcaption>
+      <div class="tekenrij" id="tek03"></div>
+      <figcaption><span>tekening 03 — balkenframe: bovenaanzicht rooster, vooraanzicht, zijaanzicht kopframe, detail E</span><span>rood = maatvoering / open · gestippeld = verdekt of ghost · ①… = verklaring onder het aanzicht</span></figcaption>
     </figure>
     <div class="legenda">
       <span><span class="lg groen"></span>blad / schort</span>
@@ -424,7 +300,137 @@
       <span><span class="lg stippel"></span>verdekt / ghost</span>
       <span><span class="lg maat"></span>maatvoering</span>
     </div>
-    <div class="note">Vast (12/14-08): 4 poten ~88×70; regels 38×89 vlak met het poot-binnenvlak, alle pennen/staarten geschouderd; bovenregels drop-in zwaluwstaart, onderregels pen-en-gat; dwarsregels boven bridle (vlak), onder pen-en-gat 18 mm verlaagd met de plank erop; kopregels vlak bovenaan (blad rondom gedragen) met de staart onderin de regel en de lange-regel-kamer erboven (gelaagd — voorstel, maten n.t.b.); kopframes verlijmde zwaluwstaarten. Open: borging van de pennen en de exacte pen-/staartmaten — zie <code style="font-family:'IBM Plex Mono',monospace">subprojecten/onderstel.md</code>.</div>
+    <div class="note">Vast (12/14-08): 4 poten ~88×70; alle regels 38×89, vlak met het poot-binnenvlak; pennen/staarten geschouderd; bovenregels drop-in zwaluwstaart, onderregels pen-en-gat; dwarsregels boven bridle (vlak), onder pen-en-gat 18 mm verlaagd met de plank erop; kopregels vlak bovenaan met de staart onderin de regel (gelaagd t.o.v. de pootkop-kamer); kopframes verlijmde zwaluwstaarten. Open: borging pennen, exacte verbindings- en hapmaten — zie <code style="font-family:'IBM Plex Mono',monospace">subprojecten/onderstel.md</code>.</div>
+    <script>
+    (function () {
+      // Alle maten in mm, uit één bron — wijzig hier en alle aanzichten volgen.
+      const M = {
+        L: 2000, D: 600, H: 970, blad: 27,
+        poot: { b: 70, d: 88 }, regel: { d: 38, h: 89 },
+        plank: 18, schort: { d: 18, h: 200 }, vrijOnder: 50
+      };
+      const P = M.poot, R = M.regel, frameTop = M.blad;      // y=0 = bovenkant blad
+      const regelOnderY = M.H - M.vrijOnder - R.h;           // bovenkant onderregel
+
+      /* ---------- bovenaanzicht bovenrooster ---------- */
+      const b = new Aanzicht('#tek03', {
+        titel: 'bovenaanzicht bovenrooster (blad weggelaten)',
+        b: M.L, h: M.D, schaal: 0.2,
+        marge: { l: 40, r: 190, t: 120, b: 520 }
+      });
+      // poten
+      b.vlak('hout', 0, 0, P.b, P.d);            b.vlak('hout', M.L - P.b, 0, P.b, P.d);
+      b.vlak('hout', 0, M.D - P.d, P.b, P.d);    b.vlak('hout', M.L - P.b, M.D - P.d, P.b, P.d);
+      // kopregels, vlak met het poot-binnenvlak
+      b.vlak('hout', P.b - R.d, P.d, R.d, M.D - 2 * P.d);
+      b.vlak('hout', M.L - P.b, P.d, R.d, M.D - 2 * P.d);
+      // lange regels, vlak met het poot-binnenvlak
+      b.vlak('hout', P.b, P.d - R.d, M.L - 2 * P.b, R.d);          // achterregel
+      b.vlak('hout', P.b, M.D - P.d, M.L - 2 * P.b, R.d);          // voorregel
+      // 3 dwarsregels: bridle, einden vlak met de buitenvlakken van de lange regels
+      [0.25, 0.5, 0.75].forEach(f =>
+        b.vlak('hout', M.L * f - R.d / 2, P.d - R.d, R.d, (M.D - 2 * P.d) + 2 * R.d));
+      // bankschroefzone
+      b.zone(500, M.D - 250, 250, 250);
+      // merktekens
+      b.merk(1, 1300, M.D - P.d + R.d / 2);
+      b.merk(2, M.L * 0.75 - R.d / 2 + 100, 300);
+      b.merk(3, M.L - P.b + R.d / 2 + 90, 300);
+      b.lijn(M.L - P.b + R.d / 2, 300, M.L - P.b + R.d / 2 + 55, 300, { dikte: 0.8 });
+      // maten en bijschriften
+      b.maatH(0, M.L, -55);
+      b.maatV(M.L + 110, 0, M.D, { rechts: true });
+      b.tekst('voorzijde (werkperspectief)', M.L / 2, M.D + 62, { anchor: 'middle', kleur: '#86816F', grootte: 0.9 });
+      b.label([
+        '① voorregel — vlak met het poot-bínnenvlak',
+        '② dwarsregels 3× 38×89 — bridle, vlak bovenaan',
+        '③ kopregel 38×89 — vlak bovenaan, draagt het blad mee',
+        'rood: zone bankschroef ~50×25 vrijhouden',
+        'onderrooster idem, maar: dwarsregels pen-en-gat,',
+        '18 mm verlaagd — de plank (rechthoek) rust erop'
+      ], 0, M.D + 145);
+
+      /* ---------- vooraanzicht ---------- */
+      const v = new Aanzicht('#tek03', {
+        titel: 'vooraanzicht',
+        b: M.L, h: M.H, schaal: 0.2,
+        marge: { l: 105, r: 60, t: 40, b: 430 }
+      });
+      v.vloer(-60, M.L + 60, M.H);
+      // blad + schort (ghost)
+      v.vlak('beuken', 0, 0, M.L, M.blad);
+      v.vlak('beuken', 0, M.blad, M.L, M.schort.h - M.blad, { open: true, stippel: true, dikte: 1 });
+      // poten
+      v.vlak('hout', 0, frameTop, P.b, M.H - frameTop);
+      v.vlak('hout', M.L - P.b, frameTop, P.b, M.H - frameTop);
+      // bovenregel + onderregel
+      v.vlak('hout', P.b, frameTop, M.L - 2 * P.b, R.h);
+      v.vlak('hout', P.b, regelOnderY, M.L - 2 * P.b, R.h);
+      // plank (top vlak met de onderregel) + verlaagde dwarsregels, kops gestippeld
+      v.lijn(P.b, regelOnderY + M.plank, M.L - P.b, regelOnderY + M.plank, { stippel: true, dikte: 0.8 });
+      [0.25, 0.5, 0.75].forEach(f => {
+        v.vlak('gat', M.L * f - R.d / 2, frameTop, R.d, R.h, { open: true, stippel: true, dikte: 1 });
+        v.vlak('gat', M.L * f - R.d / 2, regelOnderY + M.plank, R.d, R.h - M.plank, { open: true, stippel: true, dikte: 1 });
+      });
+      // maten
+      v.maatV(-48, 0, M.H);
+      v.maatH(0, M.L, M.H + 55, { onder: true });
+      v.maatV(M.L + 40, M.H - M.vrijOnder, M.H, { rechts: true, label: '~5' });
+      v.merk(4, M.L / 2, frameTop + R.h / 2);
+      v.merk(5, 700, regelOnderY + R.h / 2);
+      v.label([
+        '④ bovenregel 38×89 — drop-in zwaluwstaart, geschouderd',
+        '⑤ onderregel 38×89 — pen-en-gat, geschouderd;',
+        '   plank 18 (stippellijn) op de verlaagde dwarsregels',
+        'poten ~88×70 gelamineerd; schort/blad gestippeld = ghost'
+      ], 0, M.H + 175);
+
+      /* ---------- zijaanzicht kopframe ---------- */
+      const z = new Aanzicht('#tek03', {
+        titel: 'zijaanzicht kopframe',
+        b: M.D, h: M.H, schaal: 0.2,
+        marge: { l: 100, r: 70, t: 40, b: 560 }
+      });
+      z.vloer(-80, M.D + 50, M.H);
+      z.vlak('beuken', 0, 0, M.D, M.blad);
+      z.vlak('beuken', -M.schort.d, M.blad, M.schort.d, M.schort.h - M.blad);
+      z.vlak('hout', 0, frameTop, P.d, M.H - frameTop);
+      z.vlak('hout', M.D - P.d, frameTop, P.d, M.H - frameTop);
+      // kopregels: vlak bovenaan resp. vlak met de onderregel-top
+      z.vlak('hout', P.d, frameTop, M.D - 2 * P.d, R.h);
+      z.vlak('hout', P.d, regelOnderY, M.D - 2 * P.d, R.h);
+      z.maatH(0, M.D, M.H + 55, { onder: true });
+      z.merk(6, M.D / 2, frameTop + R.h / 2);
+      z.label([
+        '⑥ kopregels 38×89 —',
+        'verlijmde zwaluwstaart,',
+        'staart ónderin de regel',
+        '(gelaagd t.o.v. de kamer',
+        'voor de lange regel);',
+        'schort links = voorkant'
+      ], -80, M.H + 175);
+
+      /* ---------- detail E: geschouderde pen ---------- */
+      const e = new Aanzicht('#tek03', {
+        titel: 'detail E — geschouderde pen-en-gat (bovenaanzicht, principe)',
+        b: 230, h: 120, schaal: 1.05,
+        marge: { l: 15, r: 75, t: 25, b: 105 }
+      });
+      const pootX = 90, penDiep = 42, penDik = 20, wang = 14;
+      e.vlak('hout', pootX, 0, P.b, P.d);                     // poot 70×88, binnenzijde boven
+      e.vlak('hout', 0, 0, pootX, R.d);                       // regel, vlak met binnenvlak
+      e.vlak('gat', pootX, wang, penDiep, penDik, { stippel: true, dikte: 1 }); // pen in de poot
+      e.lijn(pootX, 0, pootX, P.d, { dikte: 1.6 });
+      e.maatV(pootX - 12, 0, wang, { label: '≥10–20' });
+      e.tekst('binnenzijde ↑', 130, -8, { kleur: '#86816F', grootte: 0.9 });
+      e.label([
+        'pen kleiner dan het werk (borst rondom):',
+        'het gat blijft rondom gesloten, óók al ligt',
+        'het regelvlak vlak met het poot-binnenvlak;',
+        'zelfde principe voor de zwaluwstaart bovenin'
+      ], 0, P.d + 30);
+    })();
+    </script>
   </section>
 
   <!-- ============ 4. DETAILS BLADOPHANGING ============ -->
@@ -461,34 +467,36 @@
         <!-- ===== detail C: schort-poot, hap + keep (vooraanzicht, 1,2 px/mm) ===== -->
         <text x="398" y="36" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail C — schort–poot: hap + keep</text>
         <text x="398" y="50" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">vooraanzicht linkerpoot · 1,2 px/mm</text>
-        <!-- bladrand -->
-        <rect x="282" y="94" width="238" height="14" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.5"/>
-        <text x="470" y="88" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#4E6B51">blad (schort in sponning)</text>
-        <!-- poot: gestippeld achter het schort, massief in de hap -->
-        <rect x="296" y="108" width="84" height="80" fill="none" stroke="#262319" stroke-width="1" stroke-dasharray="4 3"/>
-        <rect x="296" y="188" width="84" height="192" fill="#E4E0D5" stroke="#262319" stroke-width="1.6"/>
-        <!-- schort met hap (flank stopt boven de onderrand: stompe punt) -->
-        <path d="M292 108 L520 108 L520 350 L412 350 L412 330 L378 188 L292 188 Z" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.8" fill-opacity="0.85"/>
+        <!-- bladrand, vlak met schort-einde -->
+        <rect x="292" y="94" width="228" height="14" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.5"/>
+        <!-- poot: boven de hap in de keep (achter het schort, gestippeld); in de hap vult hij het vlak (massief) -->
+        <rect x="292" y="108" width="84" height="152" fill="none" stroke="#262319" stroke-width="1" stroke-dasharray="4 3"/>
+        <rect x="292" y="260" width="84" height="112" fill="#E4E0D5" stroke="#262319" stroke-width="1.6"/>
+        <!-- schort: hap alleen onderin (75 hoog), flank stopt 20 boven de rand -->
+        <path d="M292 108 L520 108 L520 350 L396 350 L396 326 L378 260 L292 260 Z" fill="#DCE3DA" stroke="#4E6B51" stroke-width="1.8" fill-opacity="0.9"/>
         <line x1="520" y1="110" x2="520" y2="348" stroke="#F3F1EA" stroke-width="3"/>
-        <!-- contactpunt flank/pootrand -->
-        <circle cx="381" cy="200" r="4" fill="none" stroke="#B0402F" stroke-width="1.4"/>
-        <!-- borgschroef -->
+        <!-- contactpunt flank op de pootrand -->
+        <circle cx="377" cy="263" r="4" fill="none" stroke="#B0402F" stroke-width="1.4"/>
+        <!-- borgschroef bovenin -->
         <g stroke="#262319" stroke-width="1.4" fill="none">
-          <circle cx="338" cy="146" r="6"/>
-          <line x1="334" y1="142" x2="342" y2="150"/><line x1="342" y1="142" x2="334" y2="150"/>
+          <circle cx="330" cy="146" r="6"/>
+          <line x1="326" y1="142" x2="334" y2="150"/><line x1="334" y1="142" x2="326" y2="150"/>
         </g>
-        <line x1="346" y1="143" x2="440" y2="128" stroke="#262319" stroke-width="0.8"/>
+        <line x1="338" y1="143" x2="440" y2="128" stroke="#262319" stroke-width="0.8"/>
         <text x="446" y="130" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">borgschroef, verzonken</text>
         <text x="446" y="142" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">dóór de poot (hoog)</text>
         <!-- flanklabel -->
-        <line x1="396" y1="262" x2="446" y2="262" stroke="#262319" stroke-width="0.8"/>
-        <text x="450" y="266" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">flank ~10–15°</text>
+        <line x1="389" y1="296" x2="432" y2="296" stroke="#262319" stroke-width="0.8"/>
+        <text x="436" y="300" font-family="'IBM Plex Mono',monospace" font-size="9" fill="#262319">flank ~15°</text>
+        <!-- hap-hoogte -->
+        <line x1="530" y1="260" x2="530" y2="350" stroke="#B0402F" stroke-width="1" marker-start="url(#m4)" marker-end="url(#m4)"/>
+        <text x="541" y="308" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#B0402F">~75</text>
         <!-- teksten -->
-        <text x="290" y="398" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">poot in keep (18) achter het schort; de hap</text>
-        <text x="290" y="411" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">wigt op de pootrand (○); flank stopt ~20 boven</text>
-        <text x="290" y="424" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">de onderrand (stompe punt); rechterpoot ge-</text>
-        <text x="290" y="437" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">spiegeld → samen borgen ze beide richtingen</text>
-        <text x="290" y="457" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#86816F">speling voor werking (2–4); radius in binnenhoeken</text>
+        <text x="290" y="398" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">keep alleen bóven de hap; ónder vult het poot-</text>
+        <text x="290" y="411" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">voorvlak de hap vlak op (Nicholson-look); flank</text>
+        <text x="290" y="424" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">stopt 20 boven de rand (stompe punt, ○ = contact);</text>
+        <text x="290" y="437" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#262319">rechterpoot gespiegeld → borgt beide richtingen</text>
+        <text x="290" y="457" font-family="'IBM Plex Mono',monospace" font-size="9.5" fill="#B0402F">hap-hoogte ~75 en keep-vulling: n.t.b. — speling ~2</text>
 
         <!-- ===== detail D: zwevende achterkant (doorsnede + onderaanzicht, 2 px/mm) ===== -->
         <text x="655" y="36" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#262319">detail D — zwevende achterkant</text>
