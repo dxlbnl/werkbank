@@ -4,6 +4,7 @@ Chronologisch projectlog (nieuwste boven). Beslissingen per onderdeel staan geza
 
 | Datum | Gebeurtenis |
 |---|---|
+| 14-08 | SP001G geleverd. Tekeningen 04 (ophangdetails blad: sponning, pootkeep, zwevende achterkant) en 05 (bankschroef aan de voorregel) toegevoegd — Rev. I. |
 | 12-08 | **Onderstel-besluiten (Rev. H):** 4 poten zonder middenpoten; boven- en onderrooster van 2 lange regels 38×89 + 3 dwarsregels met verlijmde bridle joints; poten ~88×70 uit gerippte 44×144; bankschroef aan de voorregel (ribben inlaten, schort = vaste bek, houten blok tot bladbovenkant); zaaglijst in planning.md. Werkwijze-afspraak: overdenken in de chat, committen pas bij besluit. |
 | 12-08 | `overzicht.html` teruggebracht tot tekeningenblad (Rev. G) met nieuw onderstel-schema; inhoud verhuisd naar `planning.md`, `logboek.md`, `vaktermen.md` en de subproject-md's. |
 | 12-08 | Onderstel-ontwerpsessie: balkenframe met bouwhout (groter kopen, zelf schulpen), kopframes met verlijmde zwaluwstaarten, lengteverbindingen demontabel (opties per regelpositie uitgewerkt — kops-houtdiscussie), bladregistratie over de voorpoten à la Rex Krueger, onderplank ~5–10 cm boven de vloer. Plint bleek onterecht gedocumenteerd en is geschrapt. |
