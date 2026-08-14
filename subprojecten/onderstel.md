@@ -55,6 +55,7 @@ Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippe
 - Registratiedetail schort ↔ voorpoot: bij het 18 mm-paneelschort (12-08) liever de inkeping in de poot dan in het dunne paneel; montagevolgorde.
 - Ladekast: staand op de onderplank of hangend tegen het blad (besluit 05-08 zegt hangend)?
 - Module-registratie in het frame (klossen / schroeven door zijwanden / hangend) en modulematen + plaatmateriaal.
+- Plek voor de stofzuiger (besluit 12-08: die huist onder de bank — zie [afzuiging](afzuiging-makita-aws.md)): in het MBox-vak of aparte zone? Maten volgen uit de afzuigerkeuze.
 - Waterpas stellen: stelvoeten of uitvullen? Muurbevestiging: type schroef/anker voor de houten wand.
 - Hoogteopbouw narekenen: blad 27 mm → frame ~94,3 cm voor totaal 97.
 
