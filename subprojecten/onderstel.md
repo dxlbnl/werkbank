@@ -18,6 +18,7 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 ## Beslissingen
 
 - **2026-08-12** — **Frameopbouw definitief:** 4 poten, géén middenpoten. Twee verlijmde kopframes (zwaluwstaarten). Boven- én onderin een **rooster**: 2 lange regels + 3 dwarsregels, verbonden met verlijmde open pen-en-gatverbindingen (bridle joints / vorkverbindingen). *Waarom: de roosters maken voor- en achtervlak "uit één stuk" — nodig omdat de zwevende bladachterkant (sleufgaten in de diepterichting) die koppeling bewust niet mag leveren; het onderrooster draagt de onderplank (~5–10 cm boven de vloer, vastgeschroefd = schijfwerking). Elk rooster blijft als geheel demontabel van de kopframes.*
+- **2026-08-14** — **Verbindingen en uitlijning:** de regels liggen vlak met het poot-bínnenvlak; alle pennen en staarten worden **geschouderd** (pen kleiner dan het werk, borst rondom) zodat in de poot ≥ 10–20 mm binnenwang blijft staan. Bovenregels: **drop-in zwaluwstaart** (geschouderd) in de pootkop. Onderregels: **pen-en-gat**. Onder-dwarsregels: **pen-en-gat, 18 mm verlaagd** — de onderplank (simpele rechthoek, geen uitkepingen om de poten) rust erop, vlak met de regeltop. Boven-dwarsregels: bridle, vlak met de bovenkant (bladsteun). *Waarom: binnenvlak-uitlijning geeft een rechthoekige plank; de schouders houden de gaten gesloten ondanks die uitlijning.*
 - **2026-08-12** — **Maten en inkoop:** poten **~88×70**, elk gelamineerd uit 2 lamellen 44×70 (vuren 44×144 in de lengte gerippt); kamers uitsparen vóór het verlijmen — de lijmnaad valt midden in de kamer, dus beide wangen zijn massief. Lange en dwarsregels **38×89 op de kant** (*10 cm-klasse volstaat: het rooster deelt de last en vooraan dragen blad + schort als T-balk; 140 hoog oogde topzwaar naast de kolommen*). Kopframe-regels **44×70** uit de restlamellen. Zaaglijst: zie [planning](../planning.md).
 - **2026-08-12** — **Voorkant schoort via het blad:** het schort valt met inkepingen over de voorpoten (à la Rex Krueger's joiner's bench) — vooraan star (matcht "voorkant vast"), achteraan blijft het blad zweven. Geen diagonale schoren nodig.
 - **2026-08-12** — **Bankschroef hangt aan de voorregel, niet aan het blad**; gietribben worden in de regel ingelaten. Details en volgorde: zie [bankschroef](bankschroef.md). De linker framezone en de MBox-moduletop worden pas definitief na het opmeten van het gekochte exemplaar.
@@ -35,7 +36,8 @@ Een stevig **balkenonderstel** (frame van stijlen en regels) dat het blad draagt
 | 4 | kopframe-regels | 44×70 | 55 cm | beide einden verlijmde zwaluwstaart, ingelaten in het pootvlak: binnenmaat ~42 + 2× ~5 inlaat + marge |
 | 2 | bovenregels | 38×89 | 200 cm | beide einden drop-in in de pootkop (staart óf keep + slotbout — open); 200 = buitenmaat frame, einden vlak met de poot |
 | 2 | onderregels | 38×89 | 200 cm | ⚠️ verbinding nog open: keep/staart/slotbout → 200 volstaat; wordt het doorgaande pen met spie, dan ~210 nodig (2× door de poot + uitsteek) |
-| 6 | dwarsregels (3 boven, 3 onder) | 38×89 | 62 cm | beide einden vork (bridle, verlijmd) óver de lange regels: buitenmaat over beide regels (~56–58, volgt uit schortdetail) + marge; vorken 38 diep |
+| 3 | dwarsregels boven | 38×89 | 62 cm | vork (bridle, verlijmd) óver de lange regels, vlak met de bovenkant; buitenmaat (~56–58) + marge |
+| 3 | dwarsregels onder | 38×89 | 58 cm | pen-en-gat in de lange regels, **18 mm verlaagd** (plank rust erop); binnenmaat + 2× pen (~30) — definitief bij detailtekening |
 | 1 | bevestigingslat blad | ~20×40 | ~190 cm | tegen binnenkant achterregel; sleuven 7×25 erin (zie eisen) |
 
 Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippen → 6 lamellen; 2 balken = 12 lamellen = 8 poot + 4 kopregel — precies passend, dus bij veel kwasten een 3e balk als uitval) + **6× SLS 38×89 × 210 cm** (4× voor de lange regels, 2× voor 3 dwarsregels elk) *of* 4× 300 + 1× 240.
@@ -50,9 +52,8 @@ Inkoop: **2× vuren 44×144 × 300 cm** (per balk: 3× afkorten op 100 → rippe
 
 ## Open vragen
 
-- Verbinding bovenregels ↔ pootkop: voorkeur (14-08) **drop-in zwaluwstaart**; definitief bij de detailtekening.
-- Verbinding onderregels ↔ poot: voorkeur (14-08) **pen-en-gat**; borging (deuvel/onverlijmd) nog open.
-- Uitlijning regels t.o.v. de poten (14-08): vlak met het poot-bínnenvlak (onderplank = simpele rechthoek, maar de verbinding wordt halfopen — staart met één flank, gat wordt borst-keep) óf ~15–18 mm terugliggend met een sponning in de regel voor de plank (verbinding houdt twee wanden). Keuze bepaalt de detailtekeningen.
+- Borging van de pen-en-gatverbindingen (onderregels): deuvel/drawbore, of onverlijmd + slotbout? (Demontabel houden.)
+- Exacte pen- en staartmaten (dikte, schouderbreedtes, inlaatdieptes) — bij de detailtekening.
 - Registratiedetail schort ↔ voorpoot: bij het 18 mm-paneelschort (12-08) liever de inkeping in de poot dan in het dunne paneel; montagevolgorde.
 - Ladekast: staand op de onderplank of hangend tegen het blad (besluit 05-08 zegt hangend)?
 - Module-registratie in het frame (klossen / schroeven door zijwanden / hangend) en modulematen + plaatmateriaal.
