@@ -20,11 +20,11 @@ Stofafzuiging voor de invalzaag (en later andere machines) in een kleine, geslot
   - Ecosysteem: Makita 18V LXT al aanwezig (boor + slagschroevendraaier); de meeste hobbymachines bestaan ook in LXT — XGT loont vooral voor zwaar spul.
 - Terugvalopties voor de aansturing: kant-en-klare automatische schakelstekkerdoos, of een Shelly (geparkeerd, zie 12-08).
 
-- **2026-08-12** — **Stofzuiger huist onder de werkbank.** Elektrische uitvoering in twee dozen: op werkhoogte een doos met machine-stopcontact (CT-meting erachter) + handschakelaar — daar ook ESP en relais; onderin bij de stofzuiger een doos met alleen het geschakelde stopcontact.
+- **2026-08-12** — Elektrische uitvoering in twee dozen: op werkhoogte een doos met machine-stopcontact (CT-meting erachter) + handschakelaar — daar ook ESP en relais; bij de stofzuiger een doos met alleen het geschakelde stopcontact. De stofzuigerplék is open: onder de werkbank of onder de stellingkast.
 
 ## Open vragen
 
-- Welk vak in het onderstel krijgt de stofzuiger (MBox-vak?), en past de te kiezen afzuiger daarin — de afzuigerkeuze wordt mede een maatvraag.
+- Stofzuigerplek: onder de bank (welk vak — MBox-vak?) of onder de stellingkast; past de te kiezen afzuiger daar — de afzuigerkeuze is mede een maatvraag.
 - Uitblaaslucht en slangroute: vak niet dichtbouwen (warmte/uitblaas), doorvoer of route omhoog voor de slang.
 
 - **ESP-detectie:** hoe merkt de ESP32 dat de zaag draait? Adverteert de SP001G (of een AWS-zender erin) iets bruikbaars over BLE, of is stroom-/geluidsdetectie nodig als fallback? Uitzoeken zodra de zaag er is.
