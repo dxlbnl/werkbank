@@ -51,6 +51,7 @@ Dexter leert houtbewerkings-vaktermen: bij Engelse termen altijd de Nederlandse 
 | wedged through tenon | doorgaande pen met spie |
 | bench bolt / bed bolt | slotbout(verbinding) |
 | bridle joint | open pen-en-gatverbinding / vorkverbinding |
+| cross lap / cross halving | kruiskeep — tussen twee dóórlopende balken, elk half uitgekeept |
 | lap joint / half-lap | halfhoutse verbinding / overkeping |
 | notch / housing | keep / (rechte) uitkeping — rechte wanden positioneren alleen; een zwaluwstaartkamer borgt óók tegen trek |
 | end grain | kops hout |
