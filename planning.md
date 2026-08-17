@@ -59,6 +59,7 @@ Zaaglijsten en maatdetails staan per subproject — zie bv. de zaaglijst onderst
 - Gatstopjes (conisch, vallen in de vellingkant)
 - Flip stop, dog-adapters, meetlinthouder (afhankelijk van fence-keuze)
 - Machinehouders voor de gereedschapswand
+- Parallelgeleiders voor de geleiderail (+ smalle-stukken-verlengstuk) — voor het parallel rippen van de framedelen
 - Dieptestop-klosjes (zaagdiepte = werkstuk + 3–5 mm)
 - Afstandsblokken herhaalbaar rippen (optioneel, bij gebleken behoefte)
 - Stofafzuig-adapters
