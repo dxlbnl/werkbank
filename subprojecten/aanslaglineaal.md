@@ -18,7 +18,7 @@ Een aanslag (fence / aanslaglineaal) op bankhaken, met klapaanslag (flip stop) e
 - Vaste zaagsnede voor afkorten: geleiderail op raildogs in één vaste gatenrij → één permanente kerf.
 - Hoeken: (1) rastermeetkunde — 45° via 1:1 diagonaal, 26,57° via 1:2; (2) geprinte hoekmallen op twee bankhaken (Printables); (3) draaibare fence: één dog als scharnier, klem aan het andere eind.
 - Korte werkstukken: afzagen van een langere plank, of bankhaken direct als aanslag.
-- Zwevende rail op bankhaken + geprinte afstandsblokken voor herhaalbaar schulpen — nog te ontwerpen.
+- Rip-station op de bank (verkend 17-08): vaste ripkerf + verstelbare stops op een lage liniaal die zelf op bankhaken registreert — zou het besluit "rips op offerlatten" (werkblad) deels heropenen; verder verkennen ná de bouw.
 
 ## Open vragen
 
@@ -29,6 +29,7 @@ Een aanslag (fence / aanslaglineaal) op bankhaken, met klapaanslag (flip stop) e
 
 ## Beslissingen
 
+- **2026-08-17** — **Parallelgeleiders: eigen ontwerp**, à la de Makita-variant — latten die ónder de rail door het werkstuk registreren. Profielkeuze open: 2040 (stijf, goedkoop, maar 20 hoog — onder de rail alleen met onderlegplaat) of MakerBeam 10×10 (zijsleuven, blijft onder elke werkstukdikte ≥ ~13 mm). Harde maat-eis: alles tussen bankblad en rail ≤ werkstukdikte − marge. Stops 3D-geprint: nutsteen in de sleuf, platte of zijdelingse klemming (niets omhoog), stelschroef-neus voor de fijnafstelling.
 - **2026-08-12** — **Fence-keuze heropend**: het profielbesluit van 08-08 vervalt; er zijn mogelijk andere opties. Het 20×40-profiel blijft kandidaat (zie Ideeën & opties). Status terug naar verkennen.
 - **2026-08-08** — ~~Profiel: 20×40 mm aluminium T-sleufprofiel, plat gelegd, óp het blad~~ — vervallen, keuze heropend (zie 12-08).
 - **2026-08-08** — Hoogteregel: fence **lager** dan werkstuk → rail mag eroverheen (rail rust vol op het hout); fence **hoger** dan werkstuk (bv. dunne plaat) → fence eindigt minimaal een railbreedte (~15 cm) vóór de zaaglijn.

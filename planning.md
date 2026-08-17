@@ -34,6 +34,16 @@ Bouwfasen, kooplijst en printlijst. Verhuisd uit `overzicht.html` (12-08) — da
 
 Zaaglijsten en maatdetails staan per subproject — zie bv. de zaaglijst onderstel in [`subprojecten/onderstel.md`](subprojecten/onderstel.md).
 
+## Werkwijze: recht, haaks en op maat met de invalzaag (geen schaafbank)
+
+Principes: **(1)** de rail is de rei — een verse zaagkant is rechter dan elk fabrieksvlak, vertrouw fabrieksvlakken nooit als referentie; **(2)** haaksheid komt uit het zaagblad (90° op de zool kalibreren, klapproef), niet uit het hout; **(3)** eerst afkorten — kort hout is recht hout; **(4)** elke bewerking refereert aan een eerder gemaakte zaagkant.
+
+- **Stap 0, kalibratie**: blad 90° (proefsnede, helften tegen elkaar klappen = fout verdubbelt), rail square idem, parallelgeleiders op werkelijke maat incl. zaagsnede.
+- **Poten**: afkorten ~1 m → langskant recht → strip 1 op maat (geleiders), strip 2 via de verse zaagkant (eigen parallelgeleiders of kraspen op twee punten — precisie komt van de flip-rip na het lijmen) → lijmen met de zaagkanten als buitenvlak aan dezelfde zijde, fabrieksvlakken op elkaar (fouten klein over 1 m, klemmen dwingen), kroming tegen elkaar in, op vlakke ondergrond → **eindmaat ná het lijmen van de zaag**: 70-richting in één pass, 88-richting flip-rip van twee kanten (zaagdiepte max 56); handschaaf alleen voor de ontmoetingsrichel en vellingkanten.
+- **Regels (SLS)**: fabrieksmaat volstaat; alleen haaks afkorten (rail square) en verbindingen inzagen.
+- **Kepen/pennen**: dieptestop + reeks sneden + uitbreken, bodem met beitel/schaaf.
+- Controle: winkelhaak, rail als rei, diagonalen; klasse-I rolmaat en kraspen (zie bankhaakgaten).
+
 ## Kooplijst-skelet (prijzen indicatief)
 
 | Item | Toelichting |
@@ -59,7 +69,8 @@ Zaaglijsten en maatdetails staan per subproject — zie bv. de zaaglijst onderst
 - Gatstopjes (conisch, vallen in de vellingkant)
 - Flip stop, dog-adapters, meetlinthouder (afhankelijk van fence-keuze)
 - Machinehouders voor de gereedschapswand
-- Parallelgeleiders voor de geleiderail (+ smalle-stukken-verlengstuk) — voor het parallel rippen van de framedelen
+- Parallelgeleiders — eigen ontwerp à la Makita: latten die onder de rail registreren, profiel n.t.b. (zie aanslaglineaal)
+- Rail square (haakse afkort-aanslag voor de rail) — printen of kopen, kalibreren met de klapproef
 - Dieptestop-klosjes (zaagdiepte = werkstuk + 3–5 mm)
 - Afstandsblokken herhaalbaar rippen (optioneel, bij gebleken behoefte)
 - Stofafzuig-adapters
