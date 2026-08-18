@@ -88,7 +88,7 @@
     </div>
     <div>
       <span class="tb-label">Status</span>
-      <span class="tb-value">Rev. L</span>
+      <span class="tb-value">Rev. M</span>
       <span class="sub">alleen tekeningen — inhoud leeft in de md's</span>
     </div>
     <div>
@@ -292,7 +292,7 @@
     <h2>Onderstel — balkenframe <span class="nr">tekening 03 · gegenereerd met tekening.js — maten uit één bron</span></h2>
     <figure>
       <div class="tekenrij" id="tek03"></div>
-      <figcaption><span>tekening 03 — balkenframe: bovenaanzicht rooster, vooraanzicht, zijaanzicht kopframe, detail E</span><span>rood = maatvoering / open · gestippeld = verdekt of ghost · ①… = verklaring onder het aanzicht</span></figcaption>
+      <figcaption><span>tekening 03 — balkenframe: bovenaanzicht rooster, vooraanzicht, zijaanzicht, detail E</span><span>rood = maatvoering / open · gestippeld = verdekt of ghost · ①… = verklaring onder het aanzicht</span></figcaption>
     </figure>
     <div class="legenda">
       <span><span class="lg groen"></span>blad / schort</span>
@@ -300,7 +300,7 @@
       <span><span class="lg stippel"></span>verdekt / ghost</span>
       <span><span class="lg maat"></span>maatvoering</span>
     </div>
-    <div class="note">Vast (12/14-08): 4 poten ~88×70; alle regels 38×89, vlak met het poot-binnenvlak; pennen/staarten geschouderd; bovenregels drop-in zwaluwstaart, onderregels pen-en-gat; dwarsregels boven bridle (vlak), onder pen-en-gat 18 mm verlaagd met de plank erop; kopregels vlak bovenaan met de staart onderin de regel (gelaagd t.o.v. de pootkop-kamer); kopframes verlijmde zwaluwstaarten. Open: borging pennen, exacte verbindings- en hapmaten — zie <code style="font-family:'IBM Plex Mono',monospace">subprojecten/onderstel.md</code>.</div>
+    <div class="note">Vast (12/14-08): 4 poten ~88×70; alle regels 38×89, vlak met het poot-binnenvlak; pennen/staarten geschouderd; bovenregels drop-in zwaluwstaart, onderregels pen-en-gat; dwarsregels boven bridle (vlak), onder pen-en-gat 18 mm verlaagd met de plank erop; kopse zijplaten 18 mm tegen de poten (17-08, vervangen de kopregels). Open: borging pennen, bladoplegging op de plaatbovenrand, exacte verbindings- en hapmaten — zie <code style="font-family:'IBM Plex Mono',monospace">subprojecten/onderstel.md</code>.</div>
     <script>
     (function () {
       // Alle maten in mm, uit één bron — wijzig hier en alle aanzichten volgen.
@@ -321,9 +321,9 @@
       // poten
       b.vlak('hout', 0, 0, P.b, P.d);            b.vlak('hout', M.L - P.b, 0, P.b, P.d);
       b.vlak('hout', 0, M.D - P.d, P.b, P.d);    b.vlak('hout', M.L - P.b, M.D - P.d, P.b, P.d);
-      // kopregels, vlak met het poot-binnenvlak
-      b.vlak('hout', P.b - R.d, P.d, R.d, M.D - 2 * P.d);
-      b.vlak('hout', M.L - P.b, P.d, R.d, M.D - 2 * P.d);
+      // zijplaten 18 mm tegen de poten (positie binnen-/buitenzijde n.t.b.)
+      b.vlak('hout', P.b, 0, 18, M.D);
+      b.vlak('hout', M.L - P.b - 18, 0, 18, M.D);
       // lange regels, vlak met het poot-binnenvlak
       b.vlak('hout', P.b, P.d - R.d, M.L - 2 * P.b, R.d);          // achterregel
       b.vlak('hout', P.b, M.D - P.d, M.L - 2 * P.b, R.d);          // voorregel
@@ -335,8 +335,7 @@
       // merktekens
       b.merk(1, 1300, M.D - P.d + R.d / 2);
       b.merk(2, M.L * 0.75 - R.d / 2 + 100, 300);
-      b.merk(3, M.L - P.b + R.d / 2 + 90, 300);
-      b.lijn(M.L - P.b + R.d / 2, 300, M.L - P.b + R.d / 2 + 55, 300, { dikte: 0.8 });
+      b.merk(3, M.L - P.b - 9, 300);
       // maten en bijschriften
       b.maatH(0, M.L, -55);
       b.maatV(M.L + 110, 0, M.D, { rechts: true });
@@ -344,7 +343,7 @@
       b.label([
         '① voorregel — vlak met het poot-bínnenvlak',
         '② dwarsregels 3× 38×89 — bridle, vlak bovenaan',
-        '③ kopregel 38×89 — vlak bovenaan, draagt het blad mee',
+        '③ zijplaat 18 mm tegen de poten — vervangt de kopregels',
         'rood: zone bankschroef ~50×25 vrijhouden',
         'onderrooster idem, maar: dwarsregels pen-en-gat,',
         '18 mm verlaagd — de plank (rechthoek) rust erop'
@@ -360,9 +359,11 @@
       // blad + schort (ghost)
       v.vlak('beuken', 0, 0, M.L, M.blad);
       v.vlak('beuken', 0, M.blad, M.L, M.schort.h - M.blad, { open: true, stippel: true, dikte: 1 });
-      // poten
+      // poten + kopse zijplaten (18 mm, ernaast)
       v.vlak('hout', 0, frameTop, P.b, M.H - frameTop);
       v.vlak('hout', M.L - P.b, frameTop, P.b, M.H - frameTop);
+      v.vlak('hout', P.b, frameTop, 18, M.H - frameTop - 20);
+      v.vlak('hout', M.L - P.b - 18, frameTop, 18, M.H - frameTop - 20);
       // bovenregel + onderregel
       v.vlak('hout', P.b, frameTop, M.L - 2 * P.b, R.h);
       v.vlak('hout', P.b, regelOnderY, M.L - 2 * P.b, R.h);
@@ -382,32 +383,31 @@
         '④ bovenregel 38×89 — drop-in zwaluwstaart, geschouderd',
         '⑤ onderregel 38×89 — pen-en-gat, geschouderd;',
         '   plank 18 (stippellijn) op de verlaagde dwarsregels',
-        'poten ~88×70 gelamineerd; schort/blad gestippeld = ghost'
+        'poten ~88×70 gelamineerd; kopse zijplaten 18 naast de poten'
       ], 0, M.H + 175);
 
       /* ---------- zijaanzicht kopframe ---------- */
       const z = new Aanzicht('#tek03', {
-        titel: 'zijaanzicht kopframe',
+        titel: 'zijaanzicht — zijplaat',
         b: M.D, h: M.H, schaal: 0.2,
         marge: { l: 100, r: 70, t: 40, b: 560 }
       });
       z.vloer(-80, M.D + 50, M.H);
       z.vlak('beuken', 0, 0, M.D, M.blad);
       z.vlak('beuken', -M.schort.d, M.blad, M.schort.d, M.schort.h - M.blad);
-      z.vlak('hout', 0, frameTop, P.d, M.H - frameTop);
-      z.vlak('hout', M.D - P.d, frameTop, P.d, M.H - frameTop);
-      // kopregels: vlak bovenaan resp. vlak met de onderregel-top
-      z.vlak('hout', P.d, frameTop, M.D - 2 * P.d, R.h);
-      z.vlak('hout', P.d, regelOnderY, M.D - 2 * P.d, R.h);
+      // zijplaat 18 mm over de volle zijkant; poten verdekt (gestippeld)
+      z.vlak('hout', 0, frameTop, M.D, M.H - frameTop - 20);
+      z.vlak('hout', 0, frameTop, P.d, M.H - frameTop, { open: true, stippel: true, dikte: 1 });
+      z.vlak('hout', M.D - P.d, frameTop, P.d, M.H - frameTop, { open: true, stippel: true, dikte: 1 });
       z.maatH(0, M.D, M.H + 55, { onder: true });
       z.merk(6, M.D / 2, frameTop + R.h / 2);
       z.label([
-        '⑥ kopregels 38×89 —',
-        'verlijmde zwaluwstaart,',
-        'staart ónderin de regel',
-        '(gelaagd t.o.v. de kamer',
-        'voor de lange regel);',
-        'schort links = voorkant'
+        '⑥ zijplaat 18 mm op de',
+        'poten geschroefd, i.p.v.',
+        'de kopregels; bovenrand',
+        'draagt het blad (detail',
+        'n.t.b.); positie binnen/',
+        'buiten n.t.b.'
       ], -80, M.H + 175);
 
       /* ---------- detail E: geschouderde pen ---------- */
