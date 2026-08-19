@@ -82,3 +82,7 @@ Dexter leert houtbewerkings-vaktermen: bij Engelse termen altijd de Nederlandse 
 | scribing knife | kraspen |
 | SLS (Surfaced Lumber Sizes) | geschaafd, gedroogd vurenhout in vaste maten (2×4-familie: 38×89, 38×140, …), licht afgeronde hoeken, vaak C18/C24 |
 | two-by-four (2×4) | 38×89 mm SLS-balk |
+| T-nut / sliding nut | T-moer / schuifmoer — schuift vanaf het kopse eind in een profielsleuf |
+| drop-in T-nut (spring ball) | inklikmoer / invalmoer / sleufmoer met veerkogel — valt overal in de sleuf; de veerkogel houdt hem op z'n plek. Indraaimoer = zelfde zonder veer, kwartslag draaien |
+| hammer head nut / T-bolt | hamerkopmoer / hamerkopbout — laten zakken en kwartslag draaien in de sleuf |
+| tee nut | inslagmoer — ingeslagen draadbus vóór hout; niet verwarren met de T-moer voor profielsleuven |

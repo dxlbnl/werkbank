@@ -23,7 +23,7 @@ Dit is de plek waar alle ideeën, plannen en beslissingen voor het werkbankproje
 | [Bankhaakgaten](subprojecten/bankhaakgaten.md) | 📐 ontwerpen |
 | [Bankschroef](subprojecten/bankschroef.md) | 📐 ontwerpen |
 | [Ladeblok](subprojecten/ladeblok.md) | 🌱 verkennen |
-| [Aanslaglineaal](subprojecten/aanslaglineaal.md) | 🌱 verkennen |
+| [Aanslaglineaal](subprojecten/aanslaglineaal.md) | 📐 ontwerpen |
 | [Afzuiging / Makita AWS](subprojecten/afzuiging-makita-aws.md) | 📐 ontwerpen |
 | [Gereedschapswand](subprojecten/gereedschapswand.md) | 🌱 verkennen |
 

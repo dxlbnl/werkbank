@@ -88,12 +88,12 @@
     </div>
     <div>
       <span class="tb-label">Status</span>
-      <span class="tb-value">Rev. N</span>
+      <span class="tb-value">Rev. O</span>
       <span class="sub">alleen tekeningen — inhoud leeft in de md's</span>
     </div>
     <div>
       <span class="tb-label">Datum / blad</span>
-      <span class="tb-value">2026-08-14 · 1/1</span>
+      <span class="tb-value">2026-08-19 · 1/1</span>
       <span class="sub">maten in cm, tenzij mm vermeld</span>
     </div>
   </header>
@@ -603,6 +603,63 @@
       <figcaption><span>tekening 05 — Record 52½, zijdoorsnede vanuit links</span><span>grijs = gietijzer · groen = beuken · rood = opmeten/open</span></figcaption>
     </figure>
     <div class="note">Volgorde: eerst exemplaar kopen en opmeten (sledediepte, boutpatroon, bekhoogte), dán uitsparing + riblating in de losse voorregel en het vulblok maken, dán het frame in elkaar. Zie <code style="font-family:'IBM Plex Mono',monospace">subprojecten/bankschroef.md</code>.</div>
+  </section>
+
+  <!-- ============ 6. GATENPATROON WERKBLAD ============ -->
+  <section>
+    <h2>Werkblad — gatenpatroon <span class="nr">tekening 06 · bovenaanzicht, richting variant 3b — gegenereerd met tekening.js</span></h2>
+    <figure>
+      <div class="tekenrij" id="tek06"></div>
+      <figcaption><span>tekening 06 — Ø20-raster steek 100: randen volledig + één eiland mét kerflijn in de bankschroefzone (68 gaten)</span><span>grijs open cirkeltje = ongeboorde rasterpositie · rood = maatvoering / open</span></figcaption>
+    </figure>
+    <div class="legenda">
+      <span><span class="lg groen"></span>blad (beuken)</span>
+      <span><span class="lg"></span>bankschroef / aanslag</span>
+      <span><span class="lg stippel"></span>ongeboord / kerflijn</span>
+      <span><span class="lg maat"></span>maatvoering</span>
+    </div>
+    <div class="note">Richting (19-08): voorrij (klemrand) en achterrij (fence-rij) altijd volledig; één MFT-eiland van ±7 kolommen over de volle diepte in de bankschroefzone, met de vaste kerflijn rechts van de beuken bek (~x 900); bekas-kolommen vallen in het eiland. Werkhypothesen: rand 50, bek-op-500, kerf ~900 — definitief patroon, nulpunt en kerfkolom kiest Dexter bij de bouw (bijboren vanaf het nulpunt kan altijd). Zie <code style="font-family:'IBM Plex Mono',monospace">subprojecten/werkblad.md</code>.</div>
+    <script>
+    (function () {
+      // Maten in mm. Werkhypothesen — zie note hierboven.
+      const L = 2000, D = 600, RAND = 50, STEEK = 100;
+      const KERF = 900, BEK = [500, 730], EILAND = [450, 1050];
+      const a = new Aanzicht('#tek06', {
+        titel: 'bovenaanzicht werkblad (voorrand onder)',
+        b: L, h: D, schaal: 0.35,
+        marge: { l: 130, r: 60, t: 110, b: 160 }
+      });
+      a.vlak('beuken', 0, 0, L, D);
+      a.lijn(0, D, L, D, { dikte: 3 });
+      a.tekst('voorrand + schort', 30, D + 45, { kleur: TEKENKLEUR.muted });
+      // bankschroef met 2 bekgaten op de kolommen 550/650 (boren ná montage)
+      a.vlak('ijzer', BEK[0], D, BEK[1] - BEK[0], 36);
+      a.cirkel(550, D + 18, 10, { vul: '#F3F1EA', dikte: 1.2 });
+      a.cirkel(650, D + 18, 10, { vul: '#F3F1EA', dikte: 1.2 });
+      a.tekst('bankschroef (bek 230 + 2 bekgaten)', BEK[0], D + 65, { kleur: TEKENKLEUR.muted });
+      // vaste kerflijn, rechts van de beuken bek
+      a.lijn(KERF, -8, KERF, D + 8, { kleur: TEKENKLEUR.maat, stippel: true, dikte: 1.6 });
+      a.tekst('vaste kerflijn (n.t.b.)', KERF, -30, { anchor: 'middle', kleur: TEKENKLEUR.maat });
+      // gaten: randen volledig + eiland; grijs = ongeboord
+      let n = 0;
+      for (let x = RAND; x < L; x += STEEK) for (let y = RAND; y < D; y += STEEK) {
+        const boor = y === RAND || y === D - RAND || (x >= EILAND[0] && x <= EILAND[1]);
+        if (boor) { a.cirkel(x, y, 10, { vul: '#F3F1EA', dikte: 1.2 }); n++; }
+        else a.cirkel(x, y, 10, { kleur: '#C9C4B4', dikte: 0.8 });
+      }
+      a.tekst(n + ' gaten', L - 20, D + 65, { anchor: 'end' });
+      // aanslag tegen de achterrij-dogs, stopt vóór de kerflijn
+      a.vlak('ijzer', 150, 60, 600, 40);
+      a.tekst('aanslag tegen achterrij-dogs', 165, 88);
+      a.vlak('ijzer', 740, 100, 60, 30);
+      a.tekst('flip stop', 730, 122, { anchor: 'end', kleur: TEKENKLEUR.muted });
+      // maatvoering
+      a.maatH(0, L, -80);
+      a.maatH(0, RAND, -25, { label: '50' });
+      a.maatH(RAND, RAND + STEEK, -25, { label: '100' });
+      a.maatV(-60, 0, D);
+    })();
+    </script>
   </section>
 
 

@@ -53,7 +53,8 @@ Principes: **(1)** de rail is de rei — een verse zaagkant is rechter dan elk f
 | Olie blad | hardwaxolie of lijnolie, alle zijden — ± €25 |
 | Onderstel: balken + plaat | constructiehout voor het frame + underlayment/multiplex voor de kastmodules, 2–3 platen (± €35–45 p/plaat) |
 | Bankschroef | Record 52½ — tweedehands ± €80–150 |
-| Fence | keuze heropend — profiel/opbouw n.t.b. |
+| Fence + parallelgeleiders: 5× Vevor 2040 T-sleufprofiel à 1500 mm | ✔ besteld 19-08 — sleuf 6 mm; verdeling/opbouw n.t.b. |
+| T-sleufhardware | M5 drop-in T-moeren met veer (zak ~50), hamerkopmoeren (~10–20), M5-inbus 8–16 mm; knoppen/camhendels printen |
 | Ganwei-snelklemmen Ø20 (2×) | ± €26 — penlengte ≥ ~60 mm |
 | Schroefklemmen Ø20 (2×) | ± €15–30 |
 | Metalen dogs (set) | ± €20–40 |
