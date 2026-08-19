@@ -22,13 +22,14 @@ Een vlak, stevig en duurzaam werkoppervlak (workbench top / werkblad) met een MF
 
 ## Open vragen
 
-- Nulpunt (datum) en randafstanden van het raster op het definitieve 200×60-blad.
-- Positie van de vaste crosscut-kerflijn: kiezen bij het rasterontwerp (tussen twee gatenrijen, samen met de [aanslaglineaal](aanslaglineaal.md)).
+- Nulpunt (datum) en randafstanden van het raster op het definitieve 200×60-blad (werkhypothese in de variantenstudie: rand 50 mm → 20 kolommen × 6 rijen).
+- Exacte eilandbreedte en -positie (werkhypothese: 7 kolommen, x 450–1050) en de definitieve kerfkolom — de kerflijn moet rechts van de beuken bek vrijlopen (bek 30–40 cm reikt tot ~815 bij bek-op-500; ~x 900 past dan). Kiezen zodra bekbreedte en nulpunt vastliggen, samen met de [aanslaglineaal](aanslaglineaal.md).
 - Olietype en aantal lagen.
 - Acclimatisatie: blad 1–2 weken in de schuur laten liggen vóór zagen/verlijmen — inplannen bij aankoop.
 
 ## Beslissingen
 
+- **2026-08-19** — **Gatenpatroon: geen volraster, maar randen + één eiland.** Basis die er altijd komt: **volledige voorrij** (klemrand over de hele lengte) en **volledige achterrij** (fence-rij: aanslag tegen achterrij-dogs, flip stop + meetlint; aanslag stopt vóór de kerflijn). Bij de bankschroef horen **bekas-kolommen** over de bladdiepte, in lijn met de 2 bekgaten — klemmen tussen bekdog en bladdog op elke diepte; twee kolommen zodat het werkstuk niet kan wegdraaien. Richting: het **MFT-eiland en de vaste kerflijn schuiven naar de bankschroefzone** tot één gecombineerde zone (variant 3b uit de variantenstudie: eiland van ±7 kolommen over de volle diepte, ±68 gaten totaal) — dan is er geen tweede eiland nodig. *Waarom: alle gatfuncties geconcentreerd waar gewerkt wordt; het middenveld links en rechts blijft dicht (minder boorwerk, minder stof door de gaten naar de modules eronder); dankzij het nulpunt + de boormal is later bijboren altijd verliesvrij mogelijk. Verkende reeks: randen+assen 56 / randen+kerfblok 64 / eiland-op-kerflijn 76 / één eiland op de bankschroef 68 / volraster 120 gaten.*
 - **2026-08-12** — **Schort uit 18 mm beuken meubelpaneel, 200×2000 mm** — exact de beoogde 20 cm hoogte en 200 cm lengte. *De versteksnede van 07-08 vervalt (27 vs 18 mm laat geen nette 45° toe). Bladrestanten blijven volledig beschikbaar voor bekken en zaagklos. Ø20-gaten in 18 mm beuken kunnen zonder versterking — MFT-bladen zijn 18 mm MDF en beuken draagt ruim beter (12-08).*
 - **2026-08-12** — **Verbinding blad↔schort: sponning in de onderkant van de bladvoorrand** (~18 diep × ~12 hoog, lip ~15 mm; op wérkelijke paneeldikte frezen), paneel van onderen erin verlijmd, voorvlak vlak met de bladrand. *Waarom: bovenblad loopt door tot de voorrand; beide lijmvlakken langshout; de sponning registreert het schort vanzelf recht.*
 - **2026-08-12** — Kerfstrategie **hybride** (vervolg op het vervallen van de XPS-plaat): **crosscuts** op één vaste kerflijn — rail op raildogs in een vaste gatenrij, kerf tussen twee gatenrijen door; **rips** op twee smalle offerlatten onder het werkstuk (zaag raakt het blad niet; latten hangen plat aan de wand — het opslagbezwaar van de XPS-plaat geldt daar niet). Discipline: zaagdiepte = werkstuk + 3–5 mm (dieptestop-klosje printen). Afstandsblokken-systeem voor herhaalbare rips op een vaste lijn: optioneel, pas bouwen als de behoefte blijkt.
